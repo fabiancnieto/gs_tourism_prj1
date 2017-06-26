@@ -1,0 +1,31 @@
+/*
+Header Styles
+*/
+#bs-example-navbar-collapse-1 {
+    background-color: white;
+    background-image: url("../images/rightImage.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-bottom: 3px orange solid;
+}
+/*#bs-example-navbar-collapse-1:after {
+    content: "";
+    display: block;
+    height: 10px;
+    background-image: url("../images/bottomImage.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}*/
+#bs-middlelogo_seccion img {
+    margin-left: 7em;
+    max-width: 19em;
+}
+#bs-leftlogo_seccion img {
+	max-height: 8em;
+}
+/*
+Main Carousel Styles
+*/
+#myCarousel, #mySideMenu{
+	margin-top: 4.8em;
+}
