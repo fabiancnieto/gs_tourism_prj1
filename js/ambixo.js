@@ -53,42 +53,6 @@ $(document).ready(function () {
 
   $('#main-nav').localScroll(800);
 
-
-//PARALLAX ----------------------------------------------------------------------------/
-
-    $('#parallax-1').parallax();
-    $('#parallax-2').parallax();
-    $('#parallax-3').parallax();
-    $('#parallax-4').parallax();
-    $('#parallax-5').parallax();
-    $('#parallax-6').parallax();
-    $('#parallax-7').parallax();
-    $('#parallax-8').parallax();
-    $('#parallax-9').parallax();
-    /*add as necessary*/
-
-
-//TOOLTIP --------------------------------------------------------------------------------/
-
-  $('.tool').tooltip();
-  
-
-//PORTFOLIO ---------------------------------------------------------------------/  
-
-  $(function() {
-    Grid.init();
-  });
-
-
-//SKILLS ---------------------------------------------------------------------/  
-
-  $('.skillbar').each(function(){
-    jQuery(this).find('.skillbar-bar').animate({
-      width:jQuery(this).attr('data-percent')
-    },6000);
-  });
-
-
 //BACK TO TOP --------------------------------------------------------------------------------/
 
   var offset = 800;
