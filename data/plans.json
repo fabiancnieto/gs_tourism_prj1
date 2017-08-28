@@ -1,0 +1,884 @@
+{
+  "plans": {
+    "costa_atlantica": {
+      "imagen": "main-img-1.jpg",
+      "title": "Costa Atlantica",
+      "travel_route": {
+        "item1": {
+          "title": "Primer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item2": {
+          "title": "Segundo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item3": {
+          "title": "Tercer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item4": {
+          "title": "Cuarto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item5": {
+          "title": "Quinto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item6": {
+          "title": "Sexto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item7": {
+          "title": "Septimo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        }
+      },
+      "included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "not_included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "optional": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "date": {
+        "low_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "high_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "holy_week": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        }
+      },
+      "price": {
+        "low_demand": {
+          "hotels": {
+            "0": "Plan Basico",
+            "1": "Hotel CTG Premium"
+          },
+          "price": {
+            "1": {
+              "title": "Multiple",
+              "Price": "850000"
+            },
+            "2": {
+              "title": "Doble",
+              "Price": "850000"
+            },
+            "3": {
+              "title": "Sencilla",
+              "Price": "850000"
+            },
+            "4": {
+              "title": "Niños de 0 a 10 Años",
+              "Price": "850000"
+            }
+          }
+        }
+      }
+    },
+    "guajira": {
+      "imagen": "main-img-2.jpg",
+      "title": "Guajira",
+      "travel_route": {
+        "item1": {
+          "title": "Primer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item2": {
+          "title": "Segundo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item3": {
+          "title": "Tercer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item4": {
+          "title": "Cuarto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item5": {
+          "title": "Quinto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item6": {
+          "title": "Sexto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item7": {
+          "title": "Septimo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        }
+      },
+      "included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "not_included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "optional": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "date": {
+        "low_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "high_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "holy_week": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        }
+      },
+      "price": {
+        "low_demand": {
+          "hotels": {
+            "0": "Plan Basico",
+            "1": "Hotel CTG Premium"
+          },
+          "price": {
+            "1": {
+              "title": "Multiple",
+              "Price": "850000"
+            },
+            "2": {
+              "title": "Doble",
+              "Price": "850000"
+            },
+            "3": {
+              "title": "Sencilla",
+              "Price": "850000"
+            },
+            "4": {
+              "title": "Niños de 0 a 10 Años",
+              "Price": "850000"
+            }
+          }
+        }
+      }
+    },
+    "paraiso_caribeno": {
+      "imagen": "main-img-3.jpg",
+      "title": "Paraiso Caribeño",
+      "travel_route": {
+        "item1": {
+          "title": "Primer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item2": {
+          "title": "Segundo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item3": {
+          "title": "Tercer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item4": {
+          "title": "Cuarto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item5": {
+          "title": "Quinto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item6": {
+          "title": "Sexto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item7": {
+          "title": "Septimo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        }
+      },
+      "included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "not_included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "optional": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "date": {
+        "low_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "high_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "holy_week": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        }
+      },
+      "price": {
+        "low_demand": {
+          "hotels": {
+            "0": "Plan Basico",
+            "1": "Hotel CTG Premium"
+          },
+          "price": {
+            "1": {
+              "title": "Multiple",
+              "Price": "850000"
+            },
+            "2": {
+              "title": "Doble",
+              "Price": "850000"
+            },
+            "3": {
+              "title": "Sencilla",
+              "Price": "850000"
+            },
+            "4": {
+              "title": "Niños de 0 a 10 Años",
+              "Price": "850000"
+            }
+          }
+        }
+      }
+    },
+    "medellin_caribe": {
+      "imagen": "main-img-4.jpg",
+      "title": "Medellin Caribe",
+      "travel_route": {
+        "item1": {
+          "title": "Primer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item2": {
+          "title": "Segundo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item3": {
+          "title": "Tercer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item4": {
+          "title": "Cuarto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item5": {
+          "title": "Quinto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item6": {
+          "title": "Sexto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item7": {
+          "title": "Septimo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        }
+      },
+      "included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "not_included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "optional": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "date": {
+        "low_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "high_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "holy_week": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        }
+      },
+      "price": {
+        "low_demand": {
+          "hotels": {
+            "0": "Plan Basico",
+            "1": "Hotel CTG Premium"
+          },
+          "price": {
+            "1": {
+              "title": "Multiple",
+              "Price": "850000"
+            },
+            "2": {
+              "title": "Doble",
+              "Price": "850000"
+            },
+            "3": {
+              "title": "Sencilla",
+              "Price": "850000"
+            },
+            "4": {
+              "title": "Niños de 0 a 10 Años",
+              "Price": "850000"
+            }
+          }
+        }
+      }
+    },
+    "ecuador": {
+      "imagen": "main-img-5.jpg",
+      "title": "Ecuador",
+      "travel_route": {
+        "item1": {
+          "title": "Primer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item2": {
+          "title": "Segundo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item3": {
+          "title": "Tercer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item4": {
+          "title": "Cuarto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item5": {
+          "title": "Quinto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item6": {
+          "title": "Sexto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item7": {
+          "title": "Septimo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        }
+      },
+      "included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "not_included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "optional": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "date": {
+        "low_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "high_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "holy_week": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        }
+      },
+      "price": {
+        "low_demand": {
+          "hotels": {
+            "0": "Plan Basico",
+            "1": "Hotel CTG Premium"
+          },
+          "price": {
+            "1": {
+              "title": "Multiple",
+              "Price": "850000"
+            },
+            "2": {
+              "title": "Doble",
+              "Price": "850000"
+            },
+            "3": {
+              "title": "Sencilla",
+              "Price": "850000"
+            },
+            "4": {
+              "title": "Niños de 0 a 10 Años",
+              "Price": "850000"
+            }
+          }
+        }
+      }
+    },
+    "eje_cafetero": {
+      "imagen": "main-img-6.jpg",
+      "title": "Eje Cafetero",
+      "travel_route": {
+        "item1": {
+          "title": "Primer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item2": {
+          "title": "Segundo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item3": {
+          "title": "Tercer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item4": {
+          "title": "Cuarto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item5": {
+          "title": "Quinto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item6": {
+          "title": "Sexto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item7": {
+          "title": "Septimo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        }
+      },
+      "included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "not_included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "optional": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "date": {
+        "low_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "high_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "holy_week": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        }
+      },
+      "price": {
+        "low_demand": {
+          "hotels": {
+            "0": "Plan Basico",
+            "1": "Hotel CTG Premium"
+          },
+          "price": {
+            "1": {
+              "title": "Multiple",
+              "Price": "850000"
+            },
+            "2": {
+              "title": "Doble",
+              "Price": "850000"
+            },
+            "3": {
+              "title": "Sencilla",
+              "Price": "850000"
+            },
+            "4": {
+              "title": "Niños de 0 a 10 Años",
+              "Price": "850000"
+            }
+          }
+        }
+      }
+    },
+    "san_gil": {
+      "imagen": "main-img-7.jpg",
+      "title": "San Gil",
+      "travel_route": {
+        "item1": {
+          "title": "Primer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item2": {
+          "title": "Segundo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item3": {
+          "title": "Tercer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item4": {
+          "title": "Cuarto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item5": {
+          "title": "Quinto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item6": {
+          "title": "Sexto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item7": {
+          "title": "Septimo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        }
+      },
+      "included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "not_included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "optional": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "date": {
+        "low_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "high_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "holy_week": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        }
+      },
+      "price": {
+        "low_demand": {
+          "hotels": {
+            "0": "Plan Basico",
+            "1": "Hotel CTG Premium"
+          },
+          "price": {
+            "1": {
+              "title": "Multiple",
+              "Price": "850000"
+            },
+            "2": {
+              "title": "Doble",
+              "Price": "850000"
+            },
+            "3": {
+              "title": "Sencilla",
+              "Price": "850000"
+            },
+            "4": {
+              "title": "Niños de 0 a 10 Años",
+              "Price": "850000"
+            }
+          }
+        }
+      }
+    },
+    "hacienda_napoles": {
+      "imagen": "main-img-8.jpg",
+      "title": "Hacienda Napoles",
+      "travel_route": {
+        "item1": {
+          "title": "Primer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item2": {
+          "title": "Segundo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item3": {
+          "title": "Tercer Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item4": {
+          "title": "Cuarto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item5": {
+          "title": "Quinto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item6": {
+          "title": "Sexto Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        },
+        "item7": {
+          "title": "Septimo Dia",
+          "Description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+        }
+      },
+      "included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "not_included": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "optional": {
+        "1": "Transporte en buses, busetas o vans de turismo full equipo",
+        "2": "Transporte en buses, busetas o vans de turismo full equipo",
+        "3": "Transporte en buses, busetas o vans de turismo full equipo",
+        "4": "Transporte en buses, busetas o vans de turismo full equipo",
+        "5": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "6": "Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
+        "7": "Transporte en buses, busetas o vans de turismo full equipo",
+        "8": "Transporte en buses, busetas o vans de turismo full equipo"
+      },
+      "date": {
+        "low_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "high_demand": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        },
+        "holy_week": {
+          "1": "Transporte en buses, busetas o vans de turismo full equipo",
+          "2": "Transporte en buses, busetas o vans de turismo full equipo",
+          "3": "Transporte en buses, busetas o vans de turismo full equipo",
+          "4": "Transporte en buses, busetas o vans de turismo full equipo"
+        }
+      },
+      "price": {
+        "low_demand": {
+          "hotels": {
+            "0": "Plan Basico",
+            "1": "Hotel CTG Premium"
+          },
+          "price": {
+            "1": {
+              "title": "Multiple",
+              "Price": "850000"
+            },
+            "2": {
+              "title": "Doble",
+              "Price": "850000"
+            },
+            "3": {
+              "title": "Sencilla",
+              "Price": "850000"
+            },
+            "4": {
+              "title": "Niños de 0 a 10 Años",
+              "Price": "850000"
+            }
+          }
+        }
+      }
+    }
+  }
+}

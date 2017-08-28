@@ -1,0 +1,80 @@
+/* custom inclusion of right, left and below tabs */
+
+.tabs-below > .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-bottom > .nav-tabs {
+  border-top: 1px solid #ddd;
+}
+
+.tabs-bottom > .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.tabs-bottom > .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+
+.tabs-below > .nav-tabs > li > a:hover,
+.tabs-below > .nav-tabs > li > a:focus {
+  border-top-color: #ddd;
+  border-bottom-color: transparent;
+}
+
+.tabs-bottom > .nav-tabs > .active > a,
+.tabs-bottom > .nav-tabs > .active > a:hover,
+.tabs-bottom > .nav-tabs > .active > a:focus {
+  border-color: transparent #ee8024 #ee8024 #ee8024;
+}
+
+#mainTabsContainer ul {
+    border-bottom: medium none;
+    border-top: 0.7ex solid #ee9f5d;
+    padding-top: 2ex;
+}
+
+#mainTabsContainer ul li {
+    padding-left: 2ex;
+    padding-right: 3ex;
+}
+
+#mainTabsContainer ul li a {
+    background-color: #ee8024;
+    border-bottom-right-radius: 6ex;
+    border-top-left-radius: 6ex;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    height: 10ex;
+    padding-left: 3ex;
+    padding-right: 3ex;
+    padding-top: 3ex;
+    text-align: center;
+    width: 100%;
+}
+
+#mainTabsContainer ul li a:hover {
+    background-color: white;
+    color: #ee8024;
+    border: .2ex solid #ee8024;
+}
+
+#mainTabsContainer ul li.active a {
+    background-color: white;
+    color: #ee8024;
+    border: .2ex solid #ee8024;
+}

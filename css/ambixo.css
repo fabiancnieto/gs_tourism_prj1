@@ -13,10 +13,9 @@ html {
 }
 
 body {
-	font-family: 'Signika', sans-serif;
 	font-size: 11px !important;
 	font-size: 1.4em;
-	background-color: #FCF3CF;
+	background-color: #edebd5;
 	color: black;
 }
 
@@ -56,19 +55,25 @@ input {
 }
 
 #middleHeadCont img {
-	max-width: 10ex;
-	padding-top: 4ex;
-	left: 45%;
-	position: relative;
+    left: 47%;
+    padding-top: 2ex;
+    position: relative;
+    width: 6ex;
+}
+
+.logoFont {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .logo {
-	font-family: 'Aclonica', sans-serif;
 	margin: 0;
-	font-size: 2.6em;
+	font-size: 3em;
     display: block;
 	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: .3ex;
 }
 
 .logo a > span:first-child {
@@ -76,15 +81,13 @@ input {
 }
 
 .logo a {
-	color: orange;
+	color: #ee8024;
 	text-decoration: none;
-	font-weight: normal;
 	border-bottom: none;
 }
 
 .tagline {
     display: block;
-    font-family: "Nothing You Could Do",sans-serif;
     font-size: 1.6em;
     margin-bottom: 0.5ex;
     margin-top: 0;
@@ -93,7 +96,7 @@ input {
 
 header span,
 .logo span {
-	color: green;
+	color: #5fb351;
 }
 
 header {
@@ -238,7 +241,7 @@ header {
 }
 
 #leftCont li > a:hover {
-    background-color: orange;
+    background-color: #ee8024;
     color: black;
 }
 
@@ -248,7 +251,7 @@ header {
 }
 
 #tourismCont {
-    background-color: transparent;
+    background-color: #d8d6c0;
     border-radius: 4ex;
     margin-bottom: 2ex;
     margin-top: 3ex;
@@ -273,10 +276,11 @@ header {
 	-webkit-box-shadow: 0px 1px 2px 2px rgba(22,196,22,1);
 	-moz-box-shadow: 0px 1px 2px 2px rgba(22,196,22,1);
 	box-shadow: 0px 1px 2px 2px rgba(22,196,22,1);
+	background-color: #f2f0d8;
 }
 
 #tourismPackageTitle > h2 {
-    color: orange;
+    color: #ee8024;
     font-size: 6ex;
     font-weight: bold;
 }
@@ -303,8 +307,8 @@ header {
 }
 
 .opt-menu-item a:hover {
-    background-color: orange;
-    border: 0.5ex solid green;
+    background-color: #ee8024;
+    border: 0.5ex solid #5fb351;
 }
 /* Section */
 
@@ -314,9 +318,8 @@ section .container {
 
 /* Footer */
 #contact-footer {
-	background: #39BAD7;
+	background: #0b9ca3;
 	box-shadow: inset 0 3px 3px -3px rgba(0,0,0,0.5);
-	color: #3E383A;
 	font-size: 1.3em;
 	font-weight: 300; 
 	margin-top: 5ex;
@@ -342,9 +345,45 @@ section .container {
     padding-right: 1em;
 }
 
+#footContainer > ul:first-child {
+	text-align: center;
+	color: #43bbc1;
+}
+
+#footContainer > ul:first-child img {
+    left: 45%;
+    position: relative;
+    width: 6ex;
+}
+
+#footContainer > ul:first-child a {
+	color: #43bbc1;
+}
+
+.logoFoot a > span {
+	font-size: 1.1em;
+}
+
+.logoFoot a > span:first-child {
+	font-size: 1.5em;
+}
+
+.logoFoot a {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.taglineFoot {
+    display: block;
+    font-size: 1.6em;
+    margin-bottom: 0.5ex;
+    margin-top: 0;
+    text-align: center;	
+}
+
 #midFootSection a, #midFootSection p {
     color: white;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: 500;
     text-align: center;
 	padding-top: 1ex;
@@ -448,38 +487,6 @@ section .container {
 	color: #fff;
 }
 
-
-/* Brand & Copyright */
-
-#brand-and-copy {
-	text-align: center;
-	font-size: 0.8em;
-	margin-top: 5em;
-}
-
-#brand-and-copy a {
-	font-weight: 300;
-	color: #D56157;
-}
-
-#brand-and-copy a:hover {
-	color: #C64338;
-}
-
-#brand.logo {
-	font-size: 3em;
-	margin-bottom: 0;
-	line-height: 1em;
-}
-
-#contact .container {
-	padding-bottom: 0;
-}
-
-
-
-
-
 /* Back to top */
 
 .back-to-top {
@@ -512,6 +519,24 @@ section .container {
 	cursor: pointer;
 }
 
+/* Plans Page */
+#mainTabsContainer {
+    background-color: #f2f0d8;
+    border: 0.4ex solid #5fb351;
+    border-radius: 6ex;
+    color: #ee8024;
+    overflow: hidden;
+    padding-bottom: 5ex;
+    padding-top: 5ex;
+    margin-top: 3ex;
+}
+
+#mainTabsContainer .jumbotron {
+	background-color: transparent;
+}
+
+
+
 
 /* Media Queries
 --------------------------------------------------------*/
@@ -540,11 +565,6 @@ section .container {
 
 @media only screen and (max-width: 1000px) {
 
-	body {
-		font-size: 10px !important;
-		font-size: 1.4em;
-	}
-
 	#main-nav .nav.navbar-nav {
 	    padding-left: 7px;
 	}
@@ -570,22 +590,6 @@ section .container {
 
 @media only screen and (max-width: 767px) {
 
-	.header {
-		height: 100px;
-	}
-
-	.navbar {
-		min-height: 15px;
-	}
-
-	.navbar-toggle {
-		margin-top: -40px;
-	}
-
-	#main-nav {
-	    padding-left: 0;
-	}
-
 }
 
 @media screen and (max-width: 650px) {
@@ -593,51 +597,6 @@ section .container {
 }
 
 @media only screen and (max-width: 640px) {
-
-	.header {
-		height: 140px;
-	}
-
-	.navbar {
-		min-height: 50px;
-	}
-
-	.logo {
-		display: inline-block;
-    	text-align: center;
-    	width: 100%;
-	}
-
-	.navbar-toggle {
-		float: none;
-		margin: 1em auto;
-		text-align: center;
-		display: block;
-		margin-right: auto;
-		margin-bottom: 1em;
-		margin-top: 1em;
-	}
-
-	#main-nav .navbar .container {
-		padding-right: 0;
-	}
-
-	.container > .navbar-header {
-		margin-left: 0;
-		margin-right: 0;
-	}
-
-	svg.decor {
-		display: none;
-	}
-
-	#main-img {
-		margin-top: 0;
-	}
-
-    #contact-footer {
-    	font-size: 0.9em;
-    }
 
 }
 

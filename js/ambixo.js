@@ -72,3 +72,7 @@ $(document).ready(function () {
 
   
 });
+
+function setPlansContent (plan) {
+  var plansJson = "file";///require('./data/plans.json');
+}
