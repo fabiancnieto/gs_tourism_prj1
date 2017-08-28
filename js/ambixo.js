@@ -13,7 +13,7 @@ $(document).ready(function () {
 //LOGO SCROLL ----------------------------------------------------------------------------/
 
   $(".logo a").click(function(){
-    $('html, body').animate({ scrollTop: 0 }, 800);
+    $('html, body').animate({ scrollTop: 0 }, 300);
   });
 
 
@@ -26,7 +26,7 @@ $(document).ready(function () {
       var window_width = $(window).width();
       var head_w = $('.header').height();
       if (window_width >= 10) {
-        if(wind_scr < 400){
+        if(wind_scr < 100){
           if($('.header').data('animated-header') === true){
             $('.header').data('animated-header', false);
             $('.header').stop(true).animate({opacity : 1}, 300, function(){
@@ -51,11 +51,11 @@ $(document).ready(function () {
 
 //NAV SCROLL ----------------------------------------------------------------------------/
 
-  $('#main-nav').localScroll(800);
+  $('#main-nav').localScroll(100);
 
 //BACK TO TOP --------------------------------------------------------------------------------/
 
-  var offset = 800;
+  var offset = 100;
   var duration = 500;
   jQuery(window).scroll(function() {
       if (jQuery(this).scrollTop() > offset) {
