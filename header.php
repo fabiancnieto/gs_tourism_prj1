@@ -29,32 +29,36 @@
   <body data-spy="scroll" data-target=".header">
      <header>
       <div id="header" class="header">
-        <div class="container-fluid">
+        <div class="container">
            <div class="row">
-            <div id="leftHeadCont" class="col-sm-2 hidden-xs">
+            <div id="leftHeadCont" class="col-sm-2 col-md-2 hidden-xs">
               <img class="img-responsive" src="img/headLeftImage.png" alt="Left Main logo">
             </div>
-            <div id="middleHeadCont" class="col-sm-7 logoFont">
+            <div id="middleHeadCont" class="col-sm-7 col-md-7 logoFont">
               <img class="img-responsive" src="img/headMiddleImage.png" alt="Main logo">
               <h1 class="logo"><a href="index.php"><span>T</span><span>uris</span>mauro</a></h1>
               <h2 class="tagline hidden-xs"><span>Vacaciones sin Limites</span></h2>
             </div>
-            <div id="rightHeadCont" class="col-sm-3 hidden-xs">
+            <div id="rightHeadCont" class="col-sm-3 col-md-3 hidden-xs">
               <img class="img-responsive" src="img/headRightImage.png" alt="Right Main logo">
             </div>
+            <svg id="centerSvg" class="decor fill" height="15" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 100 L100 0 L0 0" stroke-width="0" fill="white"></path>
+              <path d="M0 100 L60 35 L100 0" stroke-width="5ex" stroke="#ee8024" fill="#ee8024"></path>
+            </svg>
           </div>
         </div>
       </div>
-      <svg class="decor fill" height="15" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+      <svg id="smSvg" class="decor fill" height="15" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 100 L100 0 L0 0" stroke-width="0" fill="white"></path>
         <path d="M0 100 L60 35 L100 0" stroke-width="5ex" stroke="#ee8024" fill="#ee8024"></path>
       </svg>
     </header>
 
     <section id="main-img">
-      <div class="container-fluid ">
+      <div class="container">
         <div class="row">
-          <div id="leftCont" class="col-sm-2">
+          <div id="leftCont" class="col-xs-12 col-sm-12 col-md-2">
             <nav class="navbar navbar-default navbar-fixed-side">
               <div class="container">
                 <div class="navbar-header">
@@ -93,4 +97,4 @@
               </div>
             </nav>
           </div>
-          <div id="rightCont" class="col-sm-10">
+          <div id="rightCont" class="col-xs-12 col-sm-12 col-md-10">

@@ -64,14 +64,14 @@
       <div class="container-fluid">
          <div>
           <div id="footContainer" class="col-xs-12 logoFont">
-              <ul class="col-xs-3">
+              <ul id="lefFootSection" class="col-md-4">
                 <li>              
                   <img class="img-responsive" src="img/footLeftImage.png" alt="Main logo">
                   <h1 class="logoFoot"><a href="#"><span>T</span><span>uris</span>mauro</a></h1>
                   <h2 class="taglineFoot hidden-xs"><span>Vacaciones sin Limites</span></h2>
                 </li>
               </ul>            
-              <ul id="midFootSection" class="col-xs-5">
+              <ul id="midFootSection" class="col-xs-12 col-sm-6 col-md-5">
                 <li>
                   <p>Somos operadores mayoristas de turismo terrestre</p>
                   <p><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Registro Nacional de Turismo No: 10897</p>
@@ -82,7 +82,7 @@
                   </p>
                 </li>
               </ul>
-              <ul id="rigFootSection" class="col-xs-4">
+              <ul id="rigFootSection" class="col-xs-12 col-sm-6 col-md-3">
                 <li>
                   <a href="#">
                     <img class="img-responsive" alt="" src="img/opt-img8.png" />

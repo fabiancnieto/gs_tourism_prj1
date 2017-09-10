@@ -15,7 +15,7 @@ html {
 body {
 	font-size: 11px !important;
 	font-size: 1.4em;
-	background-color: #edebd5;
+	background-color: black;
 	color: black;
 }
 
@@ -196,6 +196,10 @@ header {
 	100% {
 	    -webkit-transform: translateY(0%);
 	}
+}
+
+#smSvg {
+	display: none;
 }
 
 /* Main Img */
@@ -406,87 +410,6 @@ section .container {
     width: 12ex;
 }
 
-/* *** Parallax - Fix on iOS Devices *** */
-
-@media only screen and (max-width: 1024px) {
-
-}
-
-@media only screen and (max-width: 768px) {
-
-}
-
-@media only screen and (max-width: 640px) {
-
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-@-webkit-keyframes loader {
-	0% { background: #d7d7d0; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #d7d7d0; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #d7d7d0, -15px 30px 1px #ccc; }
-}
-
-@-moz-keyframes loader {
-	0% { background: #d7d7d0; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #d7d7d0; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #d7d7d0, -15px 30px 1px #ccc; }
-}
-
-@keyframes loader {
-	0% { background: #d7d7d0; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #d7d7d0; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #d7d7d0, -15px 30px 1px #ccc; }
-}
-
-
- 
-@media screen and (max-width: 65.375em) {
- 
-}
- 
-@media screen and (max-width: 47.2em) {
-}
-
-/* Contact */
-
-#social-links {
-	display: block;
-	width: 100%;
-	text-align: center;
-	padding-left: 0;
-	margin-top: 2em;
-}
-
-#social-links li {
-	list-style: none;
-	display: inline-block;
-	margin: 0.3em;
-}
-
-#social-links li i {
-	display: block;
-	font-size: 2em;
-	width: 44px;
-	height: 44px;
-	background: rgba(255,255,255,0.9);
-	color: #3e383a;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 44px;
-	-webkit-transition: all 0.1s;
-	-moz-transition: all 0.1s;
-	transition: all 0.1s;
-}
-
-#social-links li i:hover {
-	background: #d56157;
-	color: #fff;
-}
-
 /* Back to top */
 
 .back-to-top {
@@ -535,98 +458,544 @@ section .container {
 	background-color: transparent;
 }
 
-
-
-
 /* Media Queries
 --------------------------------------------------------*/
+@media only screen and (max-device-width: 1200px) and (orientation : landscape) {
+	.header {
+		background-color: transparent;
+	}
 
-@media only screen and (max-width: 1200px) {
+	#header > .container {
+		padding-left: 3em;
+		padding-right: 3em;
+		background-color: transparent;
+	}
 
+	#header > .container > .row {
+		background-color: white;
+	}
+
+	#main-img {
+		margin-top: 1px;
+	}
+
+	#main-img > .container > .row, #options-menu > .container > .row {
+		margin-left: 1.5em;
+		margin-right: 1.5em;
+	}
+
+	#leftHeadCont, #leftHeadCont img {
+		padding-left: 0;
+	}
+
+	.header.animated-header {
+		padding-top: 0
+	}
+
+	#smSvg {
+		display: none;
+	}
+
+	#centerSvg {
+		display: block;
+	}
+
+	#leftCont {
+		padding-left: 0;
+	}
+
+	#leftCont li {
+		font-size: 1em;
+	}
+
+	#leftCont nav {
+		height: auto;
+		margin-top: 1ex;
+	}
+
+	#rightCont {
+	    padding-left: 1ex;
+    	padding-right: 0;
+	}
+
+	#myCarousel {
+		border-radius: 1ex;
+	}
+
+	#tourismPackageTitle > h2 {
+		font-size: 2em;
+	}
+
+	.opt-menu-item {
+		padding-left: 1em;
+	}
+
+	.opt-menu-item img {
+		width: 10em;
+	}
+
+	#contact-footer > div, #rigFootSection, #footContainer, #midFootSection {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#rigFootSection, #footContainer, #midFootSection {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 2ex;
+	}
+
+	#midFootSection a, #midFootSection p {
+		font-size: 1em;
+		margin-top: 2px;
+		margin-bottom: 0;
+	}
+
+	#rigFootSection li {
+		padding-left: 1ex;
+	}
+
+	#rigFootSection img {
+		width: 7em;
+	}
 }
 
 @media only screen and (max-device-width: 1024px) and (orientation : landscape) {
+	.header {
+		background-color: transparent;
+	}
+
+	#header > .container {
+		padding-left: 0;
+		padding-right: 0;
+		background-color: white;
+	}
+
+	#main-img > .container > .row, #options-menu > .container > .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#main-img {
+		margin-top: 1px;
+	}
+
+	#leftHeadCont, #leftHeadCont img {
+		padding-left: 0;
+	}
 
 	.header.animated-header {
-		padding-top: 20px;
-        margin-top: 0;
-		opacity: 1 !important;
+		padding-top: 0
 	}
 
-}
-
-@media only screen and (max-width: 1024px) {
-
-	.skillbar {
-		border-radius: 4px;
+	#smSvg {
+		display: none;
 	}
 
-}
-
-@media only screen and (max-width: 1000px) {
-
-	#main-nav .nav.navbar-nav {
-	    padding-left: 7px;
+	#centerSvg {
+		display: block;
 	}
 
-	#main-nav li a {
-		margin: 0 0.6em !important;
+	#leftCont {
+		padding-left: 0;
+	}
+
+	#leftCont li {
+		font-size: 1em;
+		margin-left: 0;
+	}
+
+	#leftCont nav {
+		height: auto;
+		margin-top: 1ex;
+	}
+
+	#rightCont {
+	    padding-left: 1ex;
+    	padding-right: 0;
+	}
+
+	#myCarousel {
+		border-radius: 1ex;
+	}
+
+	#tourismPackageTitle > h2 {
+		font-size: 2em;
+	}
+
+	.opt-menu-item {
+		padding-left: 2em;
+	}
+
+	.opt-menu-item img {
+		width: 7em;
+	}
+
+	#contact-footer > div, #rigFootSection, #footContainer, #midFootSection {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#rigFootSection, #footContainer, #midFootSection {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 2ex;
+	}
+
+	#midFootSection a, #midFootSection p {
+		font-size: 1em;
+		margin-top: 2px;
+		margin-bottom: 0;
+	}
+
+	#rigFootSection li {
+		padding-left: 1ex;
+	}
+
+	#rigFootSection img {
+		width: 5em;
 	}
 }
 
-@media screen and (max-width: 830px) {
+@media only screen and (max-width: 768px) {
+	.hidden-xs {
+		display: none;
+	}
 
-}
+	#header {
+		background-color: white;
+	}
 
-@media only screen and (max-device-width: 768px) and (orientation : portrait) {
+	#header > .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#main-img > .container > .row, #options-menu > .container > .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#leftHeadCont, #leftHeadCont img {
+		padding-left: 0;
+	}
 
 	.header.animated-header {
-		padding-top: 20px;
-        margin-top: 0;
-		opacity: 1 !important;
+		padding-top: 0
 	}
 
-}
+	#smSvg {
+		display: block;
+	}
 
-@media only screen and (max-width: 767px) {
+	#centerSvg {
+		display: none;
+	}
 
-}
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
 
-@media screen and (max-width: 650px) {
-	
+	#leftCont {
+		padding-left: 0;
+	}
+
+	#leftCont li {
+		font-size: 1em;
+	}
+
+	#leftCont nav {
+		height: auto;
+		margin-top: 1ex;
+	}
+
+	#rightCont {
+	    padding-left: 0;
+    	padding-right: 0;
+	}
+
+	#myCarousel {
+		border-radius: 1ex;
+	}
+
+	#tourismPackageTitle > h2 {
+		font-size: 2em;
+	}
+
+	.opt-menu-item {
+		padding-left: 2em;
+	}
+
+	.opt-menu-item img {
+		width: 11em;
+	}
+
+	#contact-footer > div, #rigFootSection, #footContainer, #midFootSection {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#rigFootSection, #footContainer, #midFootSection {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 2ex;
+	}
+
+	#lefFootSection {
+		display: none;
+	}
+
+	#midFootSection a, #midFootSection p {
+		font-size: 1em;
+		margin-top: 2px;
+		margin-bottom: 0;
+	}
+
+	#rigFootSection li {
+		padding-left: 3ex;
+	}
+
+	#rigFootSection img {
+		width: 7em;
+	}
 }
 
 @media only screen and (max-width: 640px) {
-
-}
-
-
-@media only screen and (max-width: 478px) {
-
-	.nav.nav-tabs li a {
-	    font-size: 1.3em;
-	    margin-right: 0.3em;
-	    padding: 11px;
+	#header > .container {
+		padding-left: 0;
+		padding-right: 0;
+		background-color: white;
 	}
 
+	#main-img > .container > .row, #options-menu > .container > .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#smSvg {
+		display: block;
+	}
+
+	#centerSvg {
+		display: none;
+	}
+
+	#leftCont nav {
+		height: auto;
+		margin-top: 1ex;
+	}
+
+	#rightCont {
+	    padding-left: 0;
+    	padding-right: 0;
+	}
+
+	#myCarousel {
+		border-radius: 1ex;
+	}
+
+	#tourismPackageTitle > h2 {
+		font-size: 2em;
+	}
+
+	.opt-menu-item {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.opt-menu-item img {
+		width: 10em;
+	}
+
+	#footContainer {
+		padding-top: 1ex;
+	}
+
+	#contact-footer > div, #rigFootSection, #footContainer, #midFootSection {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#lefFootSection {
+		display: none;
+	}
+
+	#footContainer > ul {
+		padding-right: 0;
+	}
+
+	#midFootSection a, #midFootSection p {
+		font-size: 1.1em;
+		margin-top: 2px;
+		margin-bottom: 0;
+		padding-top: 0;
+	}
+
+	#rigFootSection img {
+		width: 9em;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#header > .container {
+		padding-left: 0;
+		padding-right: 0;
+		background-color: white;
+	}
+
+	#main-img > .container > .row, #options-menu > .container > .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#smSvg {
+		display: block;
+	}
+
+	#centerSvg {
+		display: none;
+	}
+
+	#leftCont nav {
+		height: auto;
+		margin-top: 1ex;
+	}
+
+	#rightCont {
+	    padding-left: 0;
+    	padding-right: 0;
+	}
+
+	#myCarousel {
+		border-radius: 1ex;
+	}
+
+	#tourismPackageTitle > h2 {
+		font-size: 2em;
+	}
+
+	.opt-menu-item {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.opt-menu-item img {
+		width: 10em;
+	}
+
+	#footContainer {
+		padding-top: 1ex;
+	}
+
+	#contact-footer > div, #rigFootSection, #footContainer, #midFootSection {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#lefFootSection {
+		display: none;
+	}
+
+	#footContainer > ul {
+		padding-right: 0;
+	}
+
+	#midFootSection a, #midFootSection p {
+		font-size: 1em;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: 0;
+	}
+
+	#rigFootSection img {
+		width: 7em;
+	}
 }
 
 @media only screen and (max-width: 360px) {
-
-	.nav.nav-tabs li a {
-	    font-size: 1.2em;
-	    margin-right: 0.2em;
-	    padding: 5px;
+	#header > .container {
+		padding-left: 0;
+		padding-right: 0;
+		background-color: white;
 	}
 
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-
-	.header.animated-header {
-		padding-top: 20px;
-        margin-top: 0;
-		opacity: 1 !important;
+	#main-img > .container > .row, #options-menu > .container > .row {
+		margin-left: 0;
+		margin-right: 0;
 	}
 
+	#smSvg {
+		display: block;
+	}
+
+	#centerSvg {
+		display: none;
+	}
+
+	#middleHeadCont h1, #middleHeadCont h2 {
+		display: none;
+	}
+
+	#leftCont nav {
+		height: auto;
+		margin-top: 1ex;
+	}
+
+	#rightCont {
+	    padding-left: 0;
+    	padding-right: 0;
+	}
+
+	#myCarousel {
+		border-radius: 1ex;
+	}
+
+	#tourismPackageTitle > h2 {
+		font-size: 2em;
+	}
+
+	.opt-menu-item img {
+		width: 10em;
+	}
+
+	#footContainer {
+		padding-top: 1ex;
+	}
+
+	#contact-footer > div, #rigFootSection, #footContainer, #midFootSection {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#lefFootSection {
+		display: none;
+	}
+
+	#footContainer > ul {
+		padding-right: 0;
+	}
+
+	#midFootSection a, #midFootSection p {
+		font-size: 1em;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: 0;
+	}
+
+	#rigFootSection li {
+		padding-left: 3ex;
+	}
+
+	#rigFootSection img {
+		width: 7em;
+	}
 }
