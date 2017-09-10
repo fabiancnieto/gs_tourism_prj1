@@ -58,7 +58,7 @@
     <section id="main-img">
       <div class="container">
         <div class="row">
-          <div id="leftCont" class="col-xs-12 col-sm-12 col-md-2">
+          <div id="leftCont" class="col-xs-12 col-sm-12 col-md-2 col-lg-3">
             <nav class="navbar navbar-default navbar-fixed-side">
               <div class="container">
                 <div class="navbar-header">
@@ -97,4 +97,4 @@
               </div>
             </nav>
           </div>
-          <div id="rightCont" class="col-xs-12 col-sm-12 col-md-10">
+          <div id="rightCont" class="col-xs-12 col-sm-12 col-md-10 col-lg-9">
