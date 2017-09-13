@@ -7,11 +7,9 @@
   
 -------------------------------------------------------------------------*/
 
-var plan='costa_atlantica';
+var plan='costa_atlantica', plans = null, currPlan = null, currList = null;
 
 $(document).ready(function () {
-
-
 //LOGO SCROLL ----------------------------------------------------------------------------/
 
   $(".logo a").click(function(){
@@ -75,6 +73,72 @@ $(document).ready(function () {
   
 });
 
+function setPlanMainImg() {
+  $("#photos #planMainTitle").html(currPlan.title);
+  $("#photos #planDescription").html(currPlan.description);
+  $("#photos #planMainImage").attr("src", "pictures/" + currPlan.image);
+}
+
+function setTextContent() {
+  currList = $("#route #routeDescription");
+  $.each(currPlan.travel_route, function(index, element) {
+    addListItem(element, index);
+  });
+
+  currList = $("#included #includeDescription");
+  $.each(currPlan.included, function(index, element) {
+    addListItem(element, index);
+  });
+
+  currList = $("#no_included #optionalDescription");
+  $.each(currPlan.optional, function(index, element) {
+    addListItem(element, index);
+  });
+  
+  currList = $("#no_included #notIncludeDescription");
+  $.each(currPlan.not_included, function(index, element) {
+    addListItem(element, index);
+  });
+
+  currList = $("#date_price #dateDescription");
+  $.each(currPlan.date, function(index, element) {
+    addListItem(element, index);
+  });
+
+  currList = $("#date_price #priceDescription");
+  $.each(currPlan.prices, function(index, element) {
+    addListPriceItem(element, index);
+  });
+}
+
+function addListPriceItem(element, index) {
+  html = "<tr><td>" + element.title + "</td>";
+  html = html + "<td>" + element.hotel + "</td>";
+  html = html + "<td class='price'>" + element.price[1] + "</td>";
+  html = html + "<td class='price'>" + element.price[2] + "</td>";
+  html = html + "<td class='price'>" + element.price[3] + "</td>";
+  html = html + "<td class='price'>" + element.price[4] + "</td></tr>";
+  currList.append(html);
+}
+
+function addListItem(element, index) {
+  if(element.title) {
+    currList.append("<li><p><strong>" + element.title + ": </strong>" + element.description + "</p></li>");
+  } else {
+    currList.append("<li><p>" + element + "</p></li>");
+  }
+}
+
 function setPlansContent (plan) {
-  var plansJson = "file";///require('./data/plans.json');
+  completePath = "http://" + publicName + publicPath + "data/plans.json";
+
+  var jqxhr = $.getJSON( completePath, function(data) {
+    plans = data.plans;
+    currPlan = plans[plan];
+    setPlanMainImg();
+    setTextContent();
+  })
+  .fail(function() {
+    console.log( "error" );
+  });
 }

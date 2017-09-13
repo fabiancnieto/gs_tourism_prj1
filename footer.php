@@ -114,13 +114,11 @@
       
     <!-- Bootstrap core JavaScript
     ================================================== -->
-
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <!-- JavaScripts -->
     <script type="text/javascript" src="js/parallax/jquery.localscroll-1.2.7-min.js"></script>
     <script type="text/javascript" src="js/parallax/jquery.scrollTo-min.js"></script>
     <script type="text/javascript" src="js/ambixo.js"></script>
-
   </body>
 </html>

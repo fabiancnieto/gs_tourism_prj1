@@ -122,7 +122,7 @@ header {
 
 .header {
     width: 100%;
-    background: white;
+    background: transparent;
     height: auto;
     padding-top: 0;
     margin-top: 0;
@@ -450,16 +450,179 @@ section .container {
     color: #ee8024;
     overflow: hidden;
     padding-bottom: 5ex;
-    padding-top: 5ex;
-    margin-top: 3ex;
+    padding-top: 3ex;
+    margin-top: 1px;
 }
 
 #mainTabsContainer .jumbotron {
 	background-color: transparent;
+	padding: 0;
+}
+
+#mainTabsContainer ul {
+    border-bottom: medium none;
+    border-top: 0.7ex solid #ee9f5d;
+    padding-top: 2ex;
+}
+
+#mainTabsContainer ul li {
+    padding-left: 1ex;
+    padding-right: 1ex;
+}
+
+#mainTabsContainer h2 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#mainTabsContainer .jumbotron p {
+	font-size: 1.5em;
+}
+
+#mainTabsContainer ul li a {
+    background-color: #ee8024;
+    border-bottom-right-radius: 6ex;
+    border-top-left-radius: 6ex;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    height: 10ex;
+    padding-left: 2ex;
+    padding-right: 2ex;
+    padding-top: 3ex;
+    text-align: center;
+    width: 100%;
+}
+
+#mainTabsContainer ul li a:hover {
+    background-color: white;
+    color: #ee8024;
+    border: .2ex solid #ee8024;
+}
+
+#mainTabsContainer ul li.active a {
+    background-color: white;
+    color: #ee8024;
+    border: .2ex solid #ee8024;
+}
+
+#pricesContainer {
+	padding-left: 2ex;
+	padding-right: 2ex;
+}
+
+#pricesContainer th, #pricesContainer td {
+	color: #ee8024
+}
+
+#pricesContainer td.price {
+	text-align: right;
 }
 
 /* Media Queries
 --------------------------------------------------------*/
+
+@media only screen and (max-device-width: 1900px) and (orientation : landscape) {
+	.header {
+		background-color: transparent;
+	}
+
+	#header > .container {
+		padding-left: 3em;
+		padding-right: 3em;
+		background-color: transparent;
+	}
+
+	#header > .container > .row {
+		background-color: white;
+	}
+
+	#main-img {
+		margin-top: 1px;
+	}
+
+	#main-img > .container > .row, #options-menu > .container > .row {
+		margin-left: 1.5em;
+		margin-right: 1.5em;
+	}
+
+	#leftHeadCont, #leftHeadCont img {
+		padding-left: 0;
+	}
+
+	.header.animated-header {
+		padding-top: 0
+	}
+
+	#smSvg {
+		display: none;
+	}
+
+	#centerSvg {
+		display: block;
+	}
+
+	#leftCont {
+		padding-left: 0;
+	}
+
+	#leftCont li {
+		font-size: 1em;
+	}
+
+	#leftCont nav {
+		height: auto;
+		margin-top: 1ex;
+	}
+
+	#rightCont {
+	    padding-left: 1ex;
+    	padding-right: 0;
+	}
+
+	#myCarousel {
+		border-radius: 1ex;
+	}
+
+	#tourismPackageTitle > h2 {
+		font-size: 2em;
+	}
+
+	.opt-menu-item {
+		padding-left: 1em;
+	}
+
+	.opt-menu-item img {
+		width: 10em;
+	}
+
+	#contact-footer > div, #rigFootSection, #footContainer, #midFootSection {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#rigFootSection, #footContainer, #midFootSection {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 2ex;
+	}
+
+	#midFootSection a, #midFootSection p {
+		font-size: 1em;
+		margin-top: 2px;
+		margin-bottom: 0;
+	}
+
+	#rigFootSection li {
+		padding-left: 1ex;
+	}
+
+	#rigFootSection img {
+		width: 7em;
+	}
+}
+
 @media only screen and (max-device-width: 1366px) and (orientation : landscape) {
 	.header {
 		background-color: transparent;

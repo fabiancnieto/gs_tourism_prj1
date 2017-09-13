@@ -1,3 +1,10 @@
+<?php
+  $publicName = $_SERVER["SERVER_NAME"];
+  $siteName = "/gs_tourism_prj1/";
+echo "<script type='text/javascript' > 
+publicName ='{$publicName}', publicPath = '{$siteName}';
+</script>";
+?>
 <!doctype html>
 <html lang="es">
   <head>

@@ -12,35 +12,53 @@ if (!empty($_GET["plan"])) {
     <div id="mainTabsContainer" class="col-xs-12">
       <!-- tabs -->
       <div class="tabbable tabs-bottom">
-                <div class="tab-content">
-            <div class="tab-pane active" id="photos">                
+          <div class="tab-content">
+            <div class="tab-pane active" id="photos">
             <div class="jumbotron">
-              <h1>Home Tab</h1>
-              <p>These lists are meant to identify articles which deserve editor attention because they are the most important for s.</p>                 
+              <h2 id="planMainTitle" >Plan turistico</h2>
+              <p id="planDescription" ></p>
+              <img id="planMainImage" class="img-responsive" src="pictures/demo.jpg" alt="Main Image">
             </div>
           </div> 
           <div class="tab-pane" id="route"> 
             <div class="jumbotron">
-              <h1>About Tab</h1>
-              <p>because they are the most important for an encyclopedia to have, as determined by the community of participating editors..</p>                 
+              <h2>Recorrido</h2>
+              <ul id="routeDescription" ></ul>
             </div>
           </div>
           <div class="tab-pane" id="included"> 
             <div class="jumbotron">
-              <h1>Services Tab</h1>
-              <p>meant to identify articles which deserve editor attention because they are the most important for an encyclopedia to have.</p>                 
+              <h2>Incluido</h2>
+              <ul id="includeDescription" ></ul>
             </div>
           </div>
-          <div class="tab-pane" id="no_included"> 
+          <div class="tab-pane" id="no_included">
              <div class="jumbotron">
-              <h1>Contact Tab</h1>
-              <p>deserve editor attention because they are the most important for an encyclopedia to have, as determined by the community of participating editors..</p>                 
+              <h2>No incluido</h2>
+              <ul id="notIncludeDescription" ></ul>
+              <h2>Opcional</h2>
+              <ul id="optionalDescription" ></ul>
              </div>
           </div>
           <div class="tab-pane" id="date_price"> 
              <div class="jumbotron">
-              <h1>Contact Tab</h1>
-              <p>deserve editor attention because they are the most important for an encyclopedia to have, as determined by the community of participating editors..</p>                 
+              <h2>Fechas y Valor</h2>
+              <ul id="dateDescription" ></ul>
+              <div id="pricesContainer" class="table-responsive" >
+                <table id="priceDescriptionTable" class="table table-hover" >
+                  <thead>
+                    <tr>
+                      <th>Temporada</th>
+                      <th>Hoteles</th>
+                      <th>Multiple</th>
+                      <th>Doble</th>
+                      <th>Sencilla</th>
+                      <th>Niños 4-10 Años</th>
+                    </tr>
+                  </thead>
+                  <tbody id="priceDescription"></tbody>
+                </table>
+              </div>
              </div>
           </div>
         </div>
@@ -60,8 +78,5 @@ if (!empty($_GET["plan"])) {
 <?php
 include_once("footer.php");
 echo "<script type='text/javascript' > 
-$( document ).ready(function() {
-  var plan='{$planSelect}'; 
-  setPlansContent(plan);
-});
+  var plan='{$planSelect}'; setPlansContent(plan);
 </script>";
