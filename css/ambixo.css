@@ -208,6 +208,10 @@ header {
 	margin-top: 0;
 }
 
+.mainImg {
+	cursor: pointer;
+}
+
 #leftCont nav {
     background: transparent none repeat scroll 0 0;
     border: medium none;
@@ -519,6 +523,34 @@ section .container {
 #pricesContainer td.price {
 	text-align: right;
 }
+
+#mainAboutContainer > div {
+    border: .5em green;
+    border-radius: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1ex;
+    background-color: #f9e7d8;
+}
+
+#mainAboutTitle {
+    text-align: center;
+    color: #ee8024;
+    font-weight: bold;
+}
+
+#aboutContent {
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+#aboutContent h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 
 /* Media Queries
 --------------------------------------------------------*/

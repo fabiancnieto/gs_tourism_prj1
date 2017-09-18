@@ -8,6 +8,14 @@
 -------------------------------------------------------------------------*/
 
 var plan='costa_atlantica', plans = null, currPlan = null, currList = null;
+var option='la_agencia', options = null, currOption = null;
+
+$(".mainImg").click(function (){
+  id = $(this).attr("id");
+  console.log("Curr: " + id);
+  window.location.href = 'plans.php?plan=' + id;
+  return false;
+});
 
 $(document).ready(function () {
 //LOGO SCROLL ----------------------------------------------------------------------------/
@@ -129,6 +137,13 @@ function addListItem(element, index) {
   }
 }
 
+function setAboutContent() {
+  title = $("#mainAboutTitle");
+  content = $("#aboutContent");
+  title.html(currOption.title);
+  content.html(currOption.description);
+}
+
 function setPlansContent (plan) {
   completePath = "http://" + publicName + publicPath + "data/plans.json";
 
@@ -137,6 +152,19 @@ function setPlansContent (plan) {
     currPlan = plans[plan];
     setPlanMainImg();
     setTextContent();
+  })
+  .fail(function() {
+    console.log( "error" );
+  });
+}
+
+function setOptionsContent (opt) {
+  completePath = "http://" + publicName + publicPath + "data/about.json";
+
+  var jqxhr = $.getJSON( completePath, function(data) {
+    options = data.about;
+    currOption = options[opt];
+    setAboutContent();
   })
   .fail(function() {
     console.log( "error" );

@@ -1,9 +1,7 @@
 <?php
   $publicName = $_SERVER["SERVER_NAME"];
   $siteName = "/gs_tourism_prj1/";
-echo "<script type='text/javascript' > 
-publicName ='{$publicName}', publicPath = '{$siteName}';
-</script>";
+  echo "<script type='text/javascript' > publicName ='{$publicName}', publicPath = '{$siteName}'; </script>";
 ?>
 <!doctype html>
 <html lang="es">
@@ -79,19 +77,19 @@ publicName ='{$publicName}', publicPath = '{$siteName}';
                 <div class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
                   <ul class="nav navbar-nav">
                     <li >
-                      <a href="about.php?opt=d7b3a7d1a20e">La Agencia</a>
+                      <a href="about.php?opt=la_agencia">La Agencia</a>
                     </li>
                     <li class="">
-                      <a href="about.php?opt=cc9f7f5e5c0a">Parque Automotor</a>
+                      <a href="about.php?opt=parque_automotor">Parque Automotor</a>
                     </li>
                     <li class="">
                       <a href="9a2438897ccb">Corporativos</a>
                     </li>
                     <li class="">
-                      <a href="about.php?974d8918d9f3">Facilidades de Pago</a>
+                      <a href="about.php?opt=facilidades_pago">Facilidades de Pago</a>
                     </li>
                     <li class="">
-                      <a href="about.php?af541614a733">Politica de Sostenibilidad</a>
+                      <a href="about.php?opt=politica_sostenibilidad">Politica de Sostenibilidad</a>
                     </li>
                     <li class="">
                       <a href="contact.php?6fb53cb17c12">Contactenos</a>
