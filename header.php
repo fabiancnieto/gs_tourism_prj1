@@ -87,7 +87,7 @@
                       <a href="about.php?opt=parque_automotor">Parque Automotor</a>
                     </li>
                     <li class="">
-                      <a href="9a2438897ccb">Corporativos</a>
+                      <a href="#">Corporativos</a>
                     </li>
                     <li class="">
                       <a href="about.php?opt=facilidades_pago">Facilidades de Pago</a>
@@ -96,10 +96,10 @@
                       <a href="about.php?opt=politica_sostenibilidad">Politica de Sostenibilidad</a>
                     </li>
                     <li class="">
-                      <a href="contact.php?6fb53cb17c12">Contactenos</a>
+                      <a href="#">Contactenos</a>
                     </li>
                     <li class="">
-                      <a href="f0b781307af1">Planes Turisticos</a>
+                      <a href="#">Planes Turisticos</a>
                     </li>
                   </ul>
                 </div>

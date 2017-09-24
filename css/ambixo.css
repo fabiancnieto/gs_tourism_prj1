@@ -435,8 +435,17 @@ section .container {
     padding-top: 5ex;
 }
 
-#rigFootSection img {
-    width: 12ex;
+#rigFootSection a > i {
+	color: white;
+	font-size: 4em;
+	padding-left: .5em;
+	padding-bottom: 1ex;
+	padding-right: .4em;
+}
+
+#rigFootSection a > i:hover {
+	color: black;
+	font-size: 4.1em;
 }
 
 /* Back to top */
@@ -564,6 +573,7 @@ section .container {
     text-align: center;
     color: #ee8024;
     font-weight: bold;
+    font-size: 4em;
 }
 
 #aboutContent {
