@@ -66,9 +66,7 @@
           <div id="footContainer" class="col-xs-12 logoFont">
               <ul id="lefFootSection" class="col-md-4">
                 <li>              
-                  <img class="img-responsive" src="img/footLeftImage.png" alt="Main logo">
-                  <h1 class="logoFoot"><a href="#"><span>T</span><span>uris</span>mauro</a></h1>
-                  <h2 class="taglineFoot hidden-xs"><span>Vacaciones sin Limites</span></h2>
+                  <img class="img-responsive" src="img/mainFootLogo.png" alt="Main logo">
                 </li>
               </ul>            
               <ul id="midFootSection" class="col-xs-12 col-sm-6 col-md-5">

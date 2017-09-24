@@ -13,6 +13,7 @@
     <link href="css/navbar-fixed-side.css" rel="stylesheet" />
     <link href="css/ambixo.css" rel="stylesheet">
     <link href="css/bottom_tabs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Script -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -40,15 +41,14 @@
               <img class="img-responsive" src="img/headLeftImage.png" alt="Left Main logo">
             </div>
             <div id="middleHeadCont" class="col-sm-7 col-md-7 logoFont">
-              <img class="img-responsive" src="img/headMiddleImage.png" alt="Main logo">
-              <h1 class="logo"><a href="index.php"><span>T</span><span>uris</span>mauro</a></h1>
-              <h2 class="tagline hidden-xs"><span>Vacaciones sin Limites</span></h2>
+              <img class="img-responsive" src="img/mainHeadLogo.png" alt="Main logo">
             </div>
             <div id="rightHeadCont" class="col-sm-3 col-md-3 hidden-xs">
-              <h3>Contactanos: </h3>
-              <p id="headPbx">PBX +57(1) 494 01 01</p>
-              <p id="headPhone">Celular: (+57) 315 204 92 23</p>
-              <p id="headWhatsapp"><img class="img-responsive" src="img/headRightWhatsapp.png" alt="Whatsapp"> 315 204 92 23</p>
+              <div>
+                <h3>Contactanos: </h3>
+                <p id="headPbx">PBX +57(1) 494 01 01</p>
+                <p id="headPhone"><i class="fa fa-whatsapp" style="font-size:24px"></i> (+57) 315 204 92 23</p>
+              </div>
               <img class="img-responsive" src="img/headRightImage.png" alt="Right Main logo">
             </div>
             <svg id="centerSvg" class="decor fill" height="15" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">

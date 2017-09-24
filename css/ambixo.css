@@ -56,11 +56,42 @@ input {
 	margin-right: 0;
 }
 
+#rightHeadCont > div {
+    background-color: transparent;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    position: absolute;
+    margin-left: 0;
+    color: white;
+    font-size: 1.2em;
+    width: 20em;
+	text-align: right;
+	margin-top: -3ex;
+}
+
+#rightHeadCont > div > h3 {
+	font-weight: 1.3em;
+	font-weight: bold;
+}
+
+#rightHeadCont > div > p {
+	line-height: 30%;
+}
+
+#rightHeadCont > div > p#headPbx {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#rightHeadCont > div > p#headPhone, #rightHeadCont > div > p#headWhatsapp {
+	font-size: 1.2em;
+	font-weight: 300;	
+}
+
 #middleHeadCont img {
-    left: 47%;
+    left: 30%;
     padding-top: 2ex;
     position: relative;
-    width: 6ex;
 }
 
 .logoFont {
@@ -361,9 +392,8 @@ section .container {
 }
 
 #footContainer > ul:first-child img {
-    left: 45%;
+    left: 10%;
     position: relative;
-    width: 6ex;
 }
 
 #footContainer > ul:first-child a {
