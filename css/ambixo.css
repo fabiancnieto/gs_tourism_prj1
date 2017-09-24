@@ -15,8 +15,10 @@ html {
 body {
 	font-size: 11px !important;
 	font-size: 1.4em;
-	background-color: black;
 	color: black;
+	background-image: url("../pictures/mainBackground.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 a {
@@ -580,7 +582,7 @@ section .container {
 	}
 
 	#leftHeadCont, #leftHeadCont img {
-		padding-left: 0;
+		padding-left: 1em;
 	}
 
 	.header.animated-header {
@@ -680,7 +682,7 @@ section .container {
 	}
 
 	#leftHeadCont, #leftHeadCont img {
-		padding-left: 0;
+		padding-left: 1em;
 	}
 
 	.header.animated-header {
@@ -780,7 +782,7 @@ section .container {
 	}
 
 	#leftHeadCont, #leftHeadCont img {
-		padding-left: 0;
+		padding-left: 1em;
 	}
 
 	.header.animated-header {
@@ -876,7 +878,7 @@ section .container {
 	}
 
 	#leftHeadCont, #leftHeadCont img {
-		padding-left: 0;
+		padding-left: 1em;
 	}
 
 	.header.animated-header {
@@ -972,7 +974,7 @@ section .container {
 	}
 
 	#leftHeadCont, #leftHeadCont img {
-		padding-left: 0;
+		padding-left: 1em;
 	}
 
 	.header.animated-header {
