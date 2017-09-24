@@ -63,14 +63,13 @@ input {
     position: absolute;
     margin-left: 0;
     color: white;
-    font-size: 1.2em;
-    width: 20em;
+    width: 95%;
 	text-align: right;
-	margin-top: -3ex;
+	margin-top: -4ex;
 }
 
 #rightHeadCont > div > h3 {
-	font-weight: 1.3em;
+	font-weight: 1.1em !important;
 	font-weight: bold;
 }
 
@@ -79,12 +78,12 @@ input {
 }
 
 #rightHeadCont > div > p#headPbx {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-weight: bold;
 }
 
 #rightHeadCont > div > p#headPhone, #rightHeadCont > div > p#headWhatsapp {
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: 300;	
 }
 
@@ -292,7 +291,7 @@ header {
 }
 
 #tourismCont {
-    background-color: #d8d6c0;
+    background-color: white;
     border-radius: 4ex;
     margin-bottom: 2ex;
     margin-top: 3ex;
@@ -300,9 +299,6 @@ header {
     padding-bottom: 3ex;
     padding-left: 0;
     padding-right: 0;
-	-webkit-box-shadow: 1px 1px 11px 2px rgba(22,196,22,1);
-	-moz-box-shadow: 1px 1px 11px 2px rgba(22,196,22,1);
-	box-shadow: 1px 1px 11px 2px rgba(22,196,22,1);
 }
 
 #tourismOptCont > ul {
@@ -314,16 +310,14 @@ header {
     margin-bottom: 1ex;
     text-align: center;
     text-transform: uppercase;
-	-webkit-box-shadow: 0px 1px 2px 2px rgba(22,196,22,1);
-	-moz-box-shadow: 0px 1px 2px 2px rgba(22,196,22,1);
-	box-shadow: 0px 1px 2px 2px rgba(22,196,22,1);
-	background-color: #f2f0d8;
+	background-color: #0b9ca3;
 }
 
 #tourismPackageTitle > h2 {
-    color: #ee8024;
+    color: white;
     font-size: 6ex;
     font-weight: bold;
+    font-style: italic;
 }
 
 #tourismOptCont {
@@ -348,8 +342,7 @@ header {
 }
 
 .opt-menu-item a:hover {
-    background-color: #ee8024;
-    border: 0.5ex solid #5fb351;
+    border: 0.5ex solid #0b9ca3;
 }
 /* Section */
 

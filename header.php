@@ -45,7 +45,7 @@
             </div>
             <div id="rightHeadCont" class="col-sm-3 col-md-3 hidden-xs">
               <div>
-                <h3>Contactanos: </h3>
+                <h3>Contactanos</h3>
                 <p id="headPbx">PBX +57(1) 494 01 01</p>
                 <p id="headPhone"><i class="fa fa-whatsapp" style="font-size:24px"></i> (+57) 315 204 92 23</p>
               </div>
