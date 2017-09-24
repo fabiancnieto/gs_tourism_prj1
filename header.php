@@ -47,7 +47,7 @@
               <div>
                 <h3>Contactanos</h3>
                 <p id="headPbx">PBX +57(1) 494 01 01</p>
-                <p id="headPhone"><i class="fa fa-whatsapp" style="font-size:24px"></i> (+57) 315 204 92 23</p>
+                <p id="headPhone"><i class="fa fa-whatsapp" style="font-size:19px"></i> (+57) 315 204 92 23</p>
               </div>
               <img class="img-responsive" src="img/headRightImage.png" alt="Right Main logo">
             </div>

@@ -17,6 +17,16 @@ $(".mainImg").click(function (){
   return false;
 });
 
+$(".opt-menu-item > a > img").hover(function() {
+    $(this).attr("src", function(index, attr) {
+        return attr.replace(".png", "-Back.png");
+    });
+}, function(){
+    $(this).attr("src", function(index, attr){
+        return attr.replace("-Back.png", ".png");
+    });
+});
+
 $(document).ready(function () {
 //LOGO SCROLL ----------------------------------------------------------------------------/
 

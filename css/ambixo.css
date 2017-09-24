@@ -473,7 +473,7 @@ section .container {
 
 /* Plans Page */
 #mainTabsContainer {
-    background-color: #f2f0d8;
+    background-color: white;
     border: 0.4ex solid #5fb351;
     border-radius: 6ex;
     color: #ee8024;
