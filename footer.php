@@ -82,16 +82,13 @@
               </ul>
               <ul id="rigFootSection" class="col-xs-12 col-sm-6 col-md-3">
                 <li>
-                  <a href="#"><i class="fa fa-facebook-official" ></i></a>
+                  <a href="https://www.facebook.com/turismauroagenciadeviajes/" target="_blank"><i class="fa fa-facebook-official" ></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-instagram" ></i></a>
+                  <a href="https://www.twitter.com/turismauro"><i class="fa fa-twitter" ></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-twitter" ></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-youtube-play" ></i></a>
+                  <a href="https://www.youtube.com/user/TURISMAURO" target="_blank" ><i class="fa fa-youtube-play" ></i></a>
                 </li>
               </ul>
             </div>

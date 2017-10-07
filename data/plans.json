@@ -3,123 +3,94 @@
     "costa_atlantica": {
       "image": "main-img-1.jpg",
       "title": "Costa Atlantica",
-      "description": "Short description of the plan Costa Atlantica",
+      "description": "",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Salida de Bogot&aacute; 11:00 A.M. tomando la troncal del Caribe a Cartagena o Santa Marta."
         },
         "2": {
           "title": "Segundo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Llegada a la ciudad de Cartagena Alojamiento en el hotel almuerzo en la tarde City Tour visitando el castillos San Felipe, zapatos viejos, india catalina, b&oacute;vedas y la ciudad amurallada&nbsp;cena."
         },
         "3": {
           "title": "Tercer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Fiesta de integraci&oacute;n tour panor&aacute;mico en (chiva rumbera con papayera o parrando vallenato) por los sitios m&aacute;s representativos del corralito de piedra."
         },
         "4": {
           "title": "Cuarto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Salida para la ciudad de santa marta haciendo un tour panor&aacute;mico por Barranquilla, observando el estadio metropolitano panor&aacute;micamente y paso por el puente Pumarejo, ubicaci&oacute;n en el hotel almuerzo, d&iacute;a libre para disfrutar de la playa del rodadero y&nbsp;cena."
         },
         "5": {
           "title": "Quinto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "En las horas de la ma&ntilde;ana Desplazamiento a Riohacha con un desayuno viajero, visita a Rancher&iacute;as&nbsp;Wayuu conociendo sobre su cultura, Desplazamiento a Buritaca disfrutando de un d&iacute;a de R&iacute;o y playa de regreso a santa marta visita a el monumento del pibe Valderrama y a la bah&iacute;a m&aacute;s linda de Am&eacute;rica, hotel y&nbsp;cena."
         },
         "6": {
           "title": "Sexto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
-        },
-        "7": {
-          "title": "Septimo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno en el hotel desplazamiento en lancha hacia playa blanca ma&ntilde;ana de playa regreso al hotel&nbsp;entrega de habitaciones, Almuerzo&nbsp;y en la tarde retorno a la ciudad de Bogot&aacute;."
         }
       },
       "included": {
-        "1": "Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Tansporte en buses, busetas o vans de turismo full equipo, seg&uacute;n el n&uacute;mero de pasajeros.",
+        "2": "Tour en cada ciudad con su respectivo itinerario.",
+        "3": "Alimentaci&oacute;n 04 Desayunos 04 almuerzos y 04 Cenas durante la estad&iacute;a en los hoteles.",
+        "4": "Alojamiento (2) noches en Cartagena hotel con piscina, jacuzzi o similar (2) noches en Santa Marta en Hotel&nbsp;Rodadero con piscina Frente al Mar o Similar.",
+        "5": "Tour Panor&aacute;mico en Chiva Rumbera por Cartagena con papayera o parrando vallenato.",
+        "6": "Transporte en Lancha Playa Blanca ( sin almuerzo).",
+        "7": "Asistencia M&eacute;dica durante el viaje y Coordinador de viaje.",
+        "8": "Impuestos y seguro hotelero"
       },
       "not_included": {
-        "1": "No Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "No Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "No Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "No Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "No Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "No Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Gastos no estipulados en el programa ni comidas por carretera.",
+        "4": "Ingreso al acuario y castillo San Felipe."
       },
       "optional": {
-        "1": "Opcional 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Opcional 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Opcional 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Opcional 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Opcional 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Visita Isla Bar&uacute; terrestre con almuerzo t&iacute;pico isle&ntilde;o con transporte ida y regreso coordinador de viaje paso por el nuevo puente de Bar&uacute;, cruzando el famoso canal del Dique, $45.000 alta $ 55.000",
+        "2": "Islas del Rosario traslado hotel, muelle, hotel, impuesto portuario lancha r&aacute;pida dos motores gu&iacute;a profesional caminata en isla pajarales almuerzo isle&ntilde;o tarde de playa en la isla bar&uacute; $ 70.000 Alta $ 80.000. Barco grande bequia o alcatraz todo incluido $ 55.000."
       },
       "date": {
         "1": {
           "title": "Promoción Temporada Baja",
-          "description": "Descripción de las fechas para la temporada baja con horarios de salida. SAlida todo los Lunes del año y otras cosas."
+          "description": "<p><span >Octubre&nbsp;Salidas: Desde el&nbsp;09 al 15 y&nbsp;Desde&nbsp;el&nbsp;</span>15 al 21.</p><p>Diciembre&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;15 al 21 y&nbsp;Desde el&nbsp;21 al 27.</span></p><p>Enero Salidas:&nbsp;<span >Desde el&nbsp;08 al 14,&nbsp;Desde el 12 al 18,&nbsp;Desde&nbsp;el 22 al 28.</span><span ></span></p>"
         },
         "2": {
-          "title": "Semana Santa",
-          "description": "Descripción de las fechas para la semana santa con horarios de salida. SAlida el viernes antes de semana santa y otras cosas."
+          "title": "Semana de Receso",
+          "description": "Semana Desde el 07 al 13 de Octubre"
         },
         "3": {
           "title": "Temporada Alta",
-          "description": "Descripción de las fechas para la temporada alta con horarios de salida. Salida cierto dias de tomporada añta y otras cosas."
+          "description": "<p>Diciembre&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;27 al 02 de&nbsp;Enero&nbsp;y&nbsp;Desde el&nbsp;29 al 04 de Enero.</span></p><p>Enero Salidas:&nbsp;<span >Desde el&nbsp;02 al 08,&nbsp;Desde el 04 al 10.</span><span ></span></p>"
         }
       },
       "prices": {
         "1": {
           "title": "T. Baja",
-          "hotel": "Plan Basico",
+          "hotel": "Plan B&aacute;sico<br>Hotel CTG Premium<br>Hotel Rodadero",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "2": {
-          "title": "T. Baja",
-          "hotel": "Plan Basico +",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 799.000",
+            "2": "$ 879.000",
+            "3": "$ 999.000",
+            "4": "$ 729.000"
           }
         },
         "3": {
-          "title": "T. Baja",
-          "hotel": "Hotel TCG Cartagena",
+          "title": "T. Alta",
+          "hotel": "Plan B&aacute;sico<br>Hotel CTG Premium<br>Hotel Rodadero",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 975.000",
+            "2": "$ 1.085.000",
+            "3": "$ 1.299.000",
+            "4": "$ 885.000"
           }
         },
         "4": {
           "title": "S. Santa",
-          "hotel": "Hotel Semana Santa",
+          "hotel": "Plan B&aacute;sico<br>Hotel CTG Premium<br>Hotel Rodadero",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "5": {
-          "title": "T. Alta",
-          "hotel": "Hotel Alta",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 835.000",
+            "2": "$ 895.000",
+            "3": "No Aplica",
+            "4": "$ 770.000"
           }
         }
       }
@@ -127,123 +98,87 @@
     "guajira": {
       "image": "main-img-2.jpg",
       "title": "Guajira",
-      "description": "Short description of the plan Guajira",
+      "description": "",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Salida de Bogot&aacute; 04:00 P.M. tomando la ruta Villeta, Bosconia, Valledupar"
         },
         "2": {
           "title": "Segundo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Llegada a la ciudad de Valledupar, ubicaci&oacute;n en el hotel, en horas de la tarde visita al rio Guatapur&iacute;, plaza francisco del hombre y city tour por la ciudad, cena."
         },
         "3": {
           "title": "Tercer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Salida en la ma&nacute;na Desayuno, (visita Salinas de Manaure proceso de la Sal) conociendo Urib&iacute;a capital ind&iacute;gena de Colombia en las horas de la tarde llegada al Cabo de la Vela y noche de integraci&oacute;n, Cena alojamiento en Hamacas."
         },
         "4": {
           "title": "Cuarto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, visita Playa Dorada, Pil&oacute;n de Az&uacute;car, Punta Faro y  llegada a Riohacha, recorrido por el Malec&oacute;n y centro de la cultura WAYUU regreso al hotel, Cena."
         },
         "5": {
           "title": "Quinto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, desplazamiento a Buritica lugar donde desemboca el rio que viene de la Sierra Nevada de Santa Marta y se une con el mar. Tarde de rio y lava, en el regreso a Santa Marta visita a el monumento del Pibe Valderrama y la bah&iacute;a m&aacute;s linda de Am&eacute;rica, registro y acomodaci&oacute;n en el hotel, Cena."
         },
         "6": {
           "title": "Sexto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, en la ma&nacute;ana desplazamiento en lancha a Playa Blanca, regreso al hotel Almuerzo y tarde libre de compras o para disfrutar las actividades del hotel, Cena."
         },
         "7": {
           "title": "Septimo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, ma&nacute;ana de playa y compras en el sector de Rodadero Almuerzo, en las horas de la tarde regreso a la ciudad de Bogot&aacute;."
+        },
+        "8": {
+          "title": "Octavo Dia",
+          "description": "Llegada a la ciudad de Bogot&aacute;, fin de nuestros servicios."
         }
       },
       "included": {
-        "1": "Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Tansporte en buses, busetas o vans de turismo full equipo, seg&uacute;n el n&uacute;mero de pasajeros.",
+        "2": "Tour en cada ciudad con su respectivo itinerario.",
+        "3": "Alimentaci&oacute;n 05 Desayunos 02 almuerzos y 05 Cenas durante la estad&iacute;a en los hoteles.",
+        "4": "Alojamiento (1) noche en Valledupar, (1) noche en Cabo de la Vela Hamacas, (1) noche en Riohacha, (1) noche en Santa Marta.",
+        "5": "City Tour en cada ciudad.",
+        "6": "Ingreso a las Salinas de Manaure, Pil&oacute;n de Az&uacute;car y Punta Faro.",
+        "7": "Ingreso a las Salinas de Manaure, Pil&oacute;n de Az&uacute;car y Punta Faro.",
+        "8": "Visita a Buritica belleza natural.",
+        "9": "Transporte en lancha a Playa Blanca sin almuerzo.",
+        "10": "Impuestos y seguro hotelero"
       },
       "not_included": {
-        "1": "No Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "No Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "No Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "No Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "No Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "No Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Gastos no estipulados en el programa ni comidas por carretera.",
+        "2": "Ingreso al Acuario."
       },
-      "optional": {
-        "1": "Opcional 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Opcional 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Opcional 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Opcional 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Opcional 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo"
-      },
+      "optional": {},
       "date": {
         "1": {
           "title": "Promoción Temporada Baja",
-          "description": "Descripción de las fechas para la temporada baja con horarios de salida. SAlida todo los Lunes del año y otras cosas."
-        },
-        "2": {
-          "title": "Semana Santa",
-          "description": "Descripción de las fechas para la semana santa con horarios de salida. SAlida el viernes antes de semana santa y otras cosas."
+          "description": "<p><span >Junio&nbsp;Salidas: Desde el&nbsp;25 al 02.</p><p><span >Octubre&nbsp;Salidas: Desde&nbsp;el&nbsp;</span>08 al 15.</p><p>Diciembre&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;20 al 27.</span></p><p>Enero Salidas:&nbsp;<span >Desde el&nbsp;14 al 21.</span></p>"
         },
         "3": {
           "title": "Temporada Alta",
-          "description": "Descripción de las fechas para la temporada alta con horarios de salida. Salida cierto dias de tomporada añta y otras cosas."
+          "description": "<p>Enero Salidas:&nbsp;<span >Desde el&nbsp;05 al 12.</span></p>"
         }
       },
       "prices": {
         "1": {
           "title": "T. Baja",
-          "hotel": "Plan Basico",
+          "hotel": "Plan B&aacute;sico",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "2": {
-          "title": "T. Baja",
-          "hotel": "Plan Basico +",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 859.000",
+            "2": "$ 925.000",
+            "3": "No Aplica",
+            "4": "$ 815.000"
           }
         },
         "3": {
-          "title": "T. Baja",
-          "hotel": "Hotel TCG Cartagena",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "4": {
-          "title": "S. Santa",
-          "hotel": "Hotel Semana Santa",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "5": {
           "title": "T. Alta",
-          "hotel": "Hotel Alta",
+          "hotel": "Plan B&aacute;sico",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 985.000",
+            "2": "$ 1.095.000",
+            "3": "No Aplica",
+            "4": "$ 895.000"
           }
         }
       }
@@ -251,247 +186,193 @@
     "paraiso_caribeno": {
       "image": "main-img-3.jpg",
       "title": "Paraiso Caribeño",
-      "description": "Short description of the plan Paraiso Caribeño",
+      "description": "",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Salida de Bogot&aacute; 11:00 P.M. tomando la ruta Villeta, Guaduas, Santuario, Medell&iacute;n."
         },
         "2": {
           "title": "Segundo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno por carretera, visita a la piedra del pe&nacute;ol (No incluye ingreso), recorrido en barco con su rese&nacute;a hist&oacute;rica en Guatap&eacute;, desplazamiento hacia el hotel acomodaci&oacute;n y en las horas de la tarde recorrido tur&iacute;stico por Pueblito paisa, Parque Botero, Metro, Metro cable, Cena."
         },
         "3": {
           "title": "Tercer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "5 A.M. desplazamiento a Tol&uacute;, desayuno por carretera, en la tarde llegada al hotel registro y d&iacute;a libre para disfrutar de las instalaciones del hotel, Cena."
         },
         "4": {
           "title": "Cuarto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "D&iacute; de playa en la espectacular hosteleria camino verde, Playa privada el Franc&eacute;s, juegos n&aacute;uticos y de mesa (no motorizados), trampol&iacute;n con ca&iacute;da al mar, Almuerzo estilo buffet, en la tarde regreso al hotel, Cena."
         },
         "5": {
           "title": "Quinto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, visita Cove&nacute;as disfrutando de las espectaculares playas de la Bah&iacute;a m&aacute;s linda del golfo de Morrosquillo, traslado mar&iacute;timo a la caimanera y casa flotante, regreso al hotel entrega de habitaciones y en la tardenhacia la ciudad bonia de Bucaramanga."
         },
         "6": {
           "title": "Sexto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, City tour por Bucaramanga visita a ca&nacute;averal y sus espectaculares centros comerciales, recorrido por Gir&oacute;n, regreso al hotel Cena."
         },
         "7": {
           "title": "Septimo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, Visita al Acualago Bucaramanga en Florida Blanca disfrutando de sus actividades (piscinas y toboganes). En horas de la tarde regreso al hotel, Cena."
+        },
+        "8": {
+          "title": "Octavo Dia",
+          "description": "Desplazamiento hacia PANACHI (Parque Nacional del Chicamocha), con ingreso y telef&eacute;rico. En la tarde regreso a la ciudad de Bogot&aacute; fin de nuestros servicios."
         }
       },
       "included": {
-        "1": "Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Tansporte en buses, busetas o vans de turismo full equipo, seg&uacute;n el n&uacute;mero de pasajeros.",
+        "2": "Tour en cada ciudad con su respectivo itinerario.",
+        "3": "Alimentaci&oacute;n 07 Desayunos 01 almuerzo estilo Buffet y 05 Cenas durante la estad&iacute;a en los hoteles.",
+        "4": "Alojamiento (1) noches en Medellin, (2) noches en Tol&uacute; y (2) noches en Bucaramanga.",
+        "5": "Visita a Guatape y recorrido en barco con su reseña hist&oacute;rica.",
+        "6": "Visita a la piedra del Pe&nacute;ol (No incluye ingreso).",
+        "7": "Recorrido tur&iacute;stico Pueblito Paisa, Parque Botero, recorrido en el Metro y Metro Cable.",
+        "8": "D&iacute;a de playa y sol en la espectacular hoster&iacute;a camino verde con almuerzo estilo buffet y actividades, Playa en Cove&nacute;as y paseo mar&iacute;timo a la caimanera visitando la casa flotante.",
+        "9": "Asistencia M&eacute;dica durante el viaje y Coordinador de viaje.",
+        "10": "Ingreso al Acualago en Bucaramanga y al PANACHI con telef&eacute;rico.",
+        "11": "Impuestos y seguro hotelero"
       },
       "not_included": {
-        "1": "No Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "No Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "No Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "No Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "No Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "No Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Gastos no estipulados en el programa ni comidas por carretera."
       },
       "optional": {
-        "1": "Opcional 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Opcional 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Opcional 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Opcional 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Opcional 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "D&iacute;a libre (opcional islas de San Bernando), transporte mar&iacute;timo disfrutando de las 14 islas, playa en Titipan isla privada, almuerzo t&iacute;pico e ingreso al zool&oacute;gico isla palma.<br>Valor $ 70.000 Temporada Baja<br>Valor $ 80.000 Temporada Alta"
       },
       "date": {
         "1": {
           "title": "Promoción Temporada Baja",
-          "description": "Descripción de las fechas para la temporada baja con horarios de salida. SAlida todo los Lunes del año y otras cosas."
+          "description": "<p><span >Abril&nbsp;Salidas: Desde el&nbsp;09 al 16</span></p><p>Junio&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;26 al 02.</span></p><p>Octubre&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;08 al 15.</span></p><p>Diciembre&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;21 al 28.</span></p><p>Enero Salidas:&nbsp;<span >Desde el&nbsp;13 al 20.</span></p>"
         },
         "2": {
-          "title": "Semana Santa",
-          "description": "Descripción de las fechas para la semana santa con horarios de salida. SAlida el viernes antes de semana santa y otras cosas."
-        },
-        "3": {
           "title": "Temporada Alta",
-          "description": "Descripción de las fechas para la temporada alta con horarios de salida. Salida cierto dias de tomporada añta y otras cosas."
+          "description": "<p>Diciembre&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;28 al 04 de&nbsp;Enero.</span></p><p>Enero Salidas:&nbsp;<span >Desde el&nbsp;05 al 12.</span></p>"
         }
       },
       "prices": {
         "1": {
           "title": "T. Baja",
-          "hotel": "Plan Basico",
+          "hotel": "Plan B&aacute;sico",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "2": {
-          "title": "T. Baja",
-          "hotel": "Plan Basico +",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 980.000",
+            "2": "$ 1.050.000",
+            "3": "No Aplica",
+            "4": "$ 890.000"
           }
         },
         "3": {
-          "title": "T. Baja",
-          "hotel": "Hotel TCG Cartagena",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "4": {
-          "title": "S. Santa",
-          "hotel": "Hotel Semana Santa",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "5": {
           "title": "T. Alta",
-          "hotel": "Hotel Alta",
+          "hotel": "Plan B&aacute;sico",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 1.095.000",
+            "2": "$ 1.185.000",
+            "3": "No Aplica",
+            "4": "$ 985.000"
           }
         }
       }
     },
     "medellin_caribe": {
       "image": "main-img-4.jpg",
-      "title": "Medellin Caribe",
-      "description": "Short description of the plan Medellin Caribe",
+      "title": "Medellin Caribe 8 Dias",
+      "description": "",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Salida de Bogot&aacute; 10:00 P.M. tomando la ruta Villeta, Guaduas, Rionegrito, Santuario, Medell&iacute;n."
         },
         "2": {
           "title": "Segundo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Llegada a Medell&iacute;n desayuno, visita Guatape y el pe&nacute;ol, desplazamiento hacia el hotel acmodaci&oacute;n, recorrido metro, metro cable, pueblito paisa y parque boteroregreso al hotel y cena."
         },
         "3": {
           "title": "Tercer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "5:00 AM desplazamiento a Tol&uacute;, desayuno. En la tarde llegada al hotel registro y tarde para disfrutar de las actividades del hotel y cena."
         },
         "4": {
           "title": "Cuarto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, visita a Cove&nacute;as disfrutando de las espectaculares playas de la Bah&iacute;a m&acute;s linda del Golfo de Morrosquilo, paseo a la caimanera en la tarde regreso al hotel Compras en Tol&uacute; y cena."
         },
         "5": {
           "title": "Quinto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno y desplazamiento a Cartagena, alojamiento en el hotel, almuerzo y en la terde City tour visitando el castillo de San Felipe, zapatos viejos, India Catalina, B&oacute;vedas  y la ciudad amurallada cena."
         },
         "6": {
           "title": "Sexto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, (opcional Islas del Rosario terrestre o mar&iacute;timo) o d&iacute;a libre almuerzo y cena. En la noche integraci&oacute;n tour panor&aacute;mico en Chiva rumbera con papayera o parranda vallenata por los sitios m&aacute;s representativos del corralito de piedra."
         },
         "7": {
           "title": "Septimo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, salida para Santa Marta haciendo un tour panor&aacute;mico por Barranquilla divisando el estadio metropolitano y puente Pumarejo, ubicaci&oacute;n en el hotel, almuerzo y d&iacute;a libre de compras y playa en el rodadero y cena."
+        },
+        "8": {
+          "title": "Octavo Dia",
+          "description": "Desplazamiento a Riohacha con desayuno viajero, visita a rancherias WAYUU conociendo sobre su cultura, desplazamiento a Buritica disfrutando de un d&iacute;a de r&iacute;o y playa de regreso a Santa Marta, visita a el monumento del Pibe Valderrama y a la bah&iacutea m&aacutes linda de Am&eacute;rica, hotel y cena."
+        },
+        "9": {
+          "title": "Noveno Dia",
+          "description": "Desayuno en el hotel, desplazamiento en lancha hacia playa blanca ma&nacute;ana de playa, regreso al hotel entrega de habitaciones, almuerzo y en la tarde retorno a la ciudad de Bogot&aacute;."
+        },
+        "10": {
+          "title": "Decimo Dia",
+          "description": "Arribo a la ciudad de Bogot&aacute; fin de nuestros servicios."
         }
       },
       "included": {
-        "1": "Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Tansporte en buses, busetas o vans de turismo full equipo, seg&uacute;n el n&uacute;mero de pasajeros.",
+        "2": "Tour en cada ciudad con su respectivo itinerario.",
+        "3": "Alimentaci&oacute;n 08 Desayunos 04 almuerzo y 07 Cenas durante la estad&iacute;a en los hoteles.",
+        "4": "Alojamiento (1) noches en Medell&iacute;n, (2) noches en Tol&uacute; y (2) noches en CTG hotel con piscina y jacuzzi o similar, (2) noches en Santa Marta en hoteles rodadero con piscina frente al mar o similar.",
+        "5": "Visita a Guatape y el pe&nacute;ol.",
+        "6": "Recorrido tur&iacute;stico Pueblito Paisa, Parque Botero, recorrido en el Metro y Metro Cable.",
+        "7": "Playa en Cove&nacute;as y paseo mar&iacute;timo a la caimanera visitando la casa flotante.",
+        "8": "Tour panor&aacute;mico en Chiva rumbera por Cartagena con papayera o parranda vallenata.",
+        "9": "Asistencia M&eacute;dica durante el viaje y Coordinador de viaje.",
+        "10": "Ingreso al Buritica y rancherias WAYUU con coctel de bienvenida chirrinchi danza y charla sobre su cultura.",
+        "11": "Impuestos y seguro hotelero."
       },
       "not_included": {
-        "1": "No Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "No Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "No Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "No Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "No Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "No Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Gastos no estipulados en el programa ni comidas por carretera."
       },
       "optional": {
-        "1": "Opcional 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Opcional 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Opcional 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Opcional 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Opcional 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Visita Isla Bar&uacute; terrestre con almuerzo t&iacute;pico isle&ntilde;o gu&iacute;a, T. baja $45.000, T. alta $ 55.000",
+        "2": "Islas del Rosario traslado hotel, muelle, hotel, impuesto portuario lancha r&aacute;pida dos motores gu&iacute;a profesional almuerzo isle&ntilde;o tarde de playa en la isla bar&uacute; T. baja $ 70.000, T. Alta $ 80.000.",
+        "3": "Ingreso al Acuario y Castillo San Felipe."
       },
       "date": {
         "1": {
           "title": "Promoción Temporada Baja",
-          "description": "Descripción de las fechas para la temporada baja con horarios de salida. SAlida todo los Lunes del año y otras cosas."
+          "description": "<p><span >Junio&nbsp;Salidas: Desde el&nbsp;16 al 25 y&nbsp;Desde&nbsp;el&nbsp;</span>30 al 09 de Julio.</p><p>Diciembre&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;08 al 17 y&nbsp;Desde el&nbsp;18 al 27.</span></p><p>Enero Salidas:&nbsp;<span >Desde el&nbsp;12 al 21</span></p>"
         },
         "2": {
-          "title": "Semana Santa",
-          "description": "Descripción de las fechas para la semana santa con horarios de salida. SAlida el viernes antes de semana santa y otras cosas."
+          "title": "Semana de Receso",
+          "description": "Semana Desde el 06 al 15 de Octubre"
         },
         "3": {
           "title": "Temporada Alta",
-          "description": "Descripción de las fechas para la temporada alta con horarios de salida. Salida cierto dias de tomporada añta y otras cosas."
+          "description": "<p>Diciembre&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;26 al 04 de&nbsp;Enero.</span></p><p>Enero Salidas:&nbsp;<span >Desde el&nbsp;03 al 12.</span></p>"
         }
       },
       "prices": {
         "1": {
           "title": "T. Baja",
-          "hotel": "Plan Basico",
+          "hotel": "Plan B&aacute;sico",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "2": {
-          "title": "T. Baja",
-          "hotel": "Plan Basico +",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 1.129.000",
+            "2": "$ 1.239.000",
+            "3": "No Aplica",
+            "4": "$ 999.000"
           }
         },
         "3": {
-          "title": "T. Baja",
-          "hotel": "Hotel TCG Cartagena",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "4": {
-          "title": "S. Santa",
-          "hotel": "Hotel Semana Santa",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "5": {
           "title": "T. Alta",
-          "hotel": "Hotel Alta",
+          "hotel": "Plan B&aacute;sico",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 1,299.000",
+            "2": "$ 1.399.000",
+            "3": "No Aplica",
+            "4": "$ 1,099.000"
           }
         }
       }
@@ -499,123 +380,93 @@
     "ecuador": {
       "image": "main-img-5.jpg",
       "title": "Ecuador",
-      "description": "Short description of the plan Ecuador",
+      "description": "",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Salida de Bogot&aacute; 08:00 P.M. tomando la ruta Ibagu&eacute;, Armenia, Buga, Popay&aacute;n."
         },
         "2": {
           "title": "Segundo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Llegada a la ciudad de Popay&aacute;n  Alojamiento en el hotel, recorrido por los sitios de inter&eacute;s tur&iacute;sticos, hist&oacute;ricos y coloniales de la ciudad. Plazoletas, museos e iglesias cena."
         },
         "3": {
           "title": "Tercer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, desplazamiento hacia Ipiales almuerzo, visita al santuario de las lajas, registro y cena en el hotel recorrido puente internacional de Rumichaca frontera de Ecuador. Tramites de documentaci&oacute;n para ingresar a emigraci&oacute;n Ecuatoriana regreso al hotel descanso."
         },
         "4": {
           "title": "Cuarto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, salida hacia el cementerio Cipr&eacute;s y compras en Tulc&aacute;n visita a San Antonio de Ibarra, talla en madera, Cotacachi centro marroquinero m&aacute;s importante de Ecuador, Ot&aacute;valo capital artesanal, alojamiento en Quito y cena."
         },
         "5": {
           "title": "Quinto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, City tour por el sector hist&oacute;rico declarado patrimonio cultural de la humanidad. Visita a la ciudad mitad del mundo, desplazamiento hacia las hermosas playas de Atacames en esmeraldas. Alojamiento en el hotel y cena."
         },
         "6": {
           "title": "Sexto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, D&iacute;a libre para disfrutar de las playas de Atacames en la noche alojamiento y cena. Sugerencia conocer los bares, restaurantes (Comida t&iacute;pica mariscos)."
         },
         "7": {
           "title": "Septimo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "description": "Desayuno, Atacames ma&nacute;ana de playa y desplazamiento hacia Ipiales, tramites fronterizos alojamiento y cena."
+        },
+        "8": {
+          "title": "Octavo Dia",
+          "description": "Desayuno, desplazamiento hacia Pasto, City tour en Pasto conociendo sus principales plazas, galer&iacute;as e historia (Compras en bombona) alojamiento y cena."
+        },
+        "9": {
+          "title": "Noveno Dia",
+          "description": "Desayuno, desplazamiento hacia Buga alojamiento y cena."
+        },
+        "10": {
+          "title": "Decimo Dia",
+          "description": "Desayuno, regreso hacia la ciudad de Bogot&aacute;, fin de nuestros servicios."
         }
       },
       "included": {
-        "1": "Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Tansporte en buses, busetas o vans de turismo full equipo, seg&uacute;n el n&uacute;mero de pasajeros.",
+        "2": "Tour en cada ciudad con su respectivo itinerario.",
+        "3": "Alimentaci&oacute;n 08 Desayunos y 08 Cenas.",
+        "4": "Alojamiento por d&iacute;a (1) Popay&aacute;n, (2) Ipiales, (1) Quito, (2) Atacames, (1) Pasto, (1) Buga Playa y ciudad hoteles tipo turista.",
+        "5": "tramites de documentaci&oacute;n en la frontera Colombo Ecuatoriana.",
+        "6": "Visita al m&aacute;s grande y famoso mercado de artesan&iacute;as ind&iacute;genas, Otavalo.",
+        "7": "Visita al santuario de Nuestra Se&nacute;ora de las Lajas.",
+        "8": "Seguro de vida, Tarjeta de Asistencia M&eacute;dica durante el viaje y Coordinador de viaje.",
+        "9": "Impuestos y seguro hotelero."
       },
       "not_included": {
-        "1": "No Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "No Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "No Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "No Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "No Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "No Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Gastos no estipulados en el programa ni comidas por carretera."
       },
-      "optional": {
-        "1": "Opcional 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Opcional 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Opcional 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Opcional 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Opcional 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo"
-      },
+      "optional": {},
       "date": {
         "1": {
           "title": "Promoción Temporada Baja",
-          "description": "Descripción de las fechas para la temporada baja con horarios de salida. SAlida todo los Lunes del año y otras cosas."
-        },
-        "2": {
-          "title": "Semana Santa",
-          "description": "Descripción de las fechas para la semana santa con horarios de salida. SAlida el viernes antes de semana santa y otras cosas."
+          "description": "<p><span >Abril&nbsp;Salidas: Desde el&nbsp;07 al 16.</p><p>Junio&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;24 al 03 de Julio.</span></p><p><span >Octubre&nbsp;Salidas: Desde el&nbsp;06 al 15.</p><p>Diciembre Salidas:&nbsp;<span >Desde el&nbsp;18 al 27.</span><span ></span></p>"
         },
         "3": {
           "title": "Temporada Alta",
-          "description": "Descripción de las fechas para la temporada alta con horarios de salida. Salida cierto dias de tomporada añta y otras cosas."
+          "description": "<p>Diciembre&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;28 al 06 de&nbsp;Enero Festival de Blancos y Negros</span></p>"
         }
       },
       "prices": {
         "1": {
           "title": "T. Baja",
-          "hotel": "Plan Basico",
+          "hotel": "Plan B&aacute;sico",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "2": {
-          "title": "T. Baja",
-          "hotel": "Plan Basico +",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 1,499.000",
+            "2": "$ 1.629.000",
+            "3": "No Aplica",
+            "4": "$ 1.299.000"
           }
         },
         "3": {
-          "title": "T. Baja",
-          "hotel": "Hotel TCG Cartagena",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "4": {
-          "title": "S. Santa",
-          "hotel": "Hotel Semana Santa",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "5": {
           "title": "T. Alta",
-          "hotel": "Hotel Alta",
+          "hotel": "Plan B&aacute;sico",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 1.549.000",
+            "2": "$ 1.729.000",
+            "3": "No Aplica",
+            "4": "$ 1.399.000"
           }
         }
       }
@@ -623,7 +474,7 @@
     "eje_cafetero": {
       "image": "main-img-6.jpg",
       "title": "Eje Cafetero",
-      "description": "Short description of the plan Eje Cafetero",
+      "description": "",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
@@ -747,7 +598,7 @@
     "san_gil": {
       "image": "main-img-7.jpg",
       "title": "San Gil",
-      "description": "Short description of the plan San Gil",
+      "description": "",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
@@ -871,7 +722,7 @@
     "hacienda_napoles": {
       "image": "main-img-8.jpg",
       "title": "Hacienda Napoles",
-      "description": "Short description of the plan Hacienda Napoles",
+      "description": "",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
