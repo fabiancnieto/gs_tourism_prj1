@@ -48,7 +48,7 @@
                     </a> 
                   </li>
                   <li id="tourismPackage8" class="opt-menu-item">
-                    <a href="plans.php?plan=hecienda_napoles" class="thumbnail"> 
+                    <a href="plans.php?plan=hacienda_napoles" class="thumbnail"> 
                       <img class="img-responsive" alt="" src="img/opt-img8.png" > 
                     </a> 
                   </li>

@@ -2,8 +2,8 @@
   "plans": {
     "costa_atlantica": {
       "image": "main-img-1.jpg",
-      "title": "Costa Atlantica",
-      "description": "",
+      "title": "Costa Atlantica 7 D&iacute;s",
+      "description": "<strong>.:: Cartagena, Santa Marta y la Guajira todo Incluido. Salidas semanalas todos los Lunes del A&nacute;o ::.</strong><br><a href='data/files/costa_atlantica_7_dias.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
@@ -98,7 +98,7 @@
     "guajira": {
       "image": "main-img-2.jpg",
       "title": "Guajira",
-      "description": "",
+      "description": "<strong>.:: Guajira / Cabo de la Vela 8 D&iacute;as ::.</strong><br><a href='data/files/Guajira_8_dias.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
@@ -186,7 +186,7 @@
     "paraiso_caribeno": {
       "image": "main-img-3.jpg",
       "title": "Paraiso Caribeño",
-      "description": "",
+      "description": "<strong>.:: Paraiso Caribe&nacute;o - Medell&iacute;n - Tol&uacute; Cove&nacute;as - Bucaramanga Total de 8 D&iacute;as ::.</strong><br><a href='data/files/paraiso_caribeno_10_dias.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
@@ -276,7 +276,7 @@
     "medellin_caribe": {
       "image": "main-img-4.jpg",
       "title": "Medellin Caribe 8 Dias",
-      "description": "",
+      "description": "<strong>.:: Medell&iacute;n - Caribe Vacacional 10 D&iacute;as ::.</strong><br><a href='data/files/medellin_caribe_10_dias.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
@@ -380,7 +380,7 @@
     "ecuador": {
       "image": "main-img-5.jpg",
       "title": "Ecuador",
-      "description": "",
+      "description": "<strong>.:: Ecuador Encanto Cultura y Playa ::.</strong><br><a href='data/files/ecuador.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
@@ -474,7 +474,7 @@
     "eje_cafetero": {
       "image": "main-img-6.jpg",
       "title": "Eje Cafetero",
-      "description": "",
+      "description": "<strong>.:: Eje Cafetero 5 D&iacute;as 4 Noches ::.</strong><br><a href='data/files/eje_cafetero_5_dias.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
@@ -598,7 +598,7 @@
     "san_gil": {
       "image": "main-img-7.jpg",
       "title": "San Gil",
-      "description": "",
+      "description": "<strong>.:: San Gil 4 D&iacute;as 3 Noches ::.</strong><br><a href='data/files/san_gil_puentes.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
@@ -722,7 +722,7 @@
     "hacienda_napoles": {
       "image": "main-img-8.jpg",
       "title": "Hacienda Napoles",
-      "description": "",
+      "description": "<strong>.:: NUEVO Hacienda Napoles y Rio Claro 3 D&iacute;as 2 Noches ::.</strong><br><a href='data/files/hacienda_napoles.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
       "travel_route": {
         "1": {
           "title": "Primer Dia",
