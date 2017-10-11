@@ -1,6 +1,7 @@
 <?php
   $publicName = $_SERVER["SERVER_NAME"];
   $siteName = "/gs_tourism_prj1/";
+  ///$siteName = "/proyectos/Turismauro/v1.33/";
   echo "<script type='text/javascript' > publicName ='{$publicName}', publicPath = '{$siteName}'; </script>";
 ?>
 <!doctype html>
@@ -13,6 +14,7 @@
     <link href="css/navbar-fixed-side.css" rel="stylesheet" />
     <link href="css/ambixo.css" rel="stylesheet">
     <link href="css/bottom_tabs.css" rel="stylesheet">
+    <link href="css/car_fleet.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Script -->
@@ -84,10 +86,10 @@
                       <a href="about.php?opt=la_agencia">La Agencia</a>
                     </li>
                     <li class="">
-                      <a href="about.php?opt=parque_automotor">Parque Automotor</a>
+                      <a href="car_fleet.php">Parque Automotor</a>
                     </li>
                     <li class="">
-                      <a href="#">Corporativos</a>
+                      <a href="about.php?opt=corporativo">Corporativos</a>
                     </li>
                     <li class="">
                       <a href="about.php?opt=facilidades_pago">Facilidades de Pago</a>
@@ -96,10 +98,10 @@
                       <a href="about.php?opt=politica_sostenibilidad">Politica de Sostenibilidad</a>
                     </li>
                     <li class="">
-                      <a href="#">Contactenos</a>
+                      <a href="contact.php">Contactenos</a>
                     </li>
                     <li class="">
-                      <a href="#">Planes Turisticos</a>
+                      <a href="plans-all.php">Planes Turisticos</a>
                     </li>
                   </ul>
                 </div>

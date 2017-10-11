@@ -586,6 +586,44 @@ section .container {
     font-weight: bold;
 }
 
+#mainPlansContainer > div {
+	height: 90em;
+	background-color: white;
+}
+
+#mainPlansContainer div h1 {
+	text-align: center;
+	color: #ee8024;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+#mainPlansContainer div.thumbnail {
+	height: 25em;
+	margin-top: 1ex;
+	margin-bottom: 1ex;
+	background-color: #0b9ca3;
+}
+
+#mainPlansContainer div.thumbnail a.btn {
+	background-color: white;
+	color: black;
+}
+
+#contactDivCont {
+	background-color: transparent;
+}
+
+#contactDivCont > div {
+	background-color: white;
+    border: 1px solid green;
+}
+
+#legendContact {
+	color: #ee8024;
+	font-size: 3em;
+	font-weight: bold;
+}
 
 /* Media Queries
 --------------------------------------------------------*/
