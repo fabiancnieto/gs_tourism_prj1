@@ -40,10 +40,10 @@
         <div class="container">
            <div class="row">
             <div id="leftHeadCont" class="col-sm-2 col-md-2 hidden-xs">
-              <img class="img-responsive" src="img/headLeftImage.png" alt="Left Main logo">
+              <a href="index.php" ><img class="img-responsive" src="img/headLeftImage.png" alt="Left Main logo"></a>
             </div>
             <div id="middleHeadCont" class="col-sm-7 col-md-7 logoFont">
-              <img class="img-responsive" src="img/mainHeadLogo.png" alt="Main logo">
+              <a href="index.php" ><img class="img-responsive" src="img/mainHeadLogo.png" alt="Main logo"></a>
             </div>
             <div id="rightHeadCont" class="col-sm-3 col-md-3 hidden-xs">
               <div>
@@ -51,7 +51,7 @@
                 <p id="headPbx">PBX +57(1) 494 01 01</p>
                 <p id="headPhone"><i class="fa fa-whatsapp" style="font-size:19px"></i> (+57) 315 204 92 23</p>
               </div>
-              <img class="img-responsive" src="img/headRightImage.png" alt="Right Main logo">
+              <a href="index.php" ><img class="img-responsive" src="img/headRightImage.png" alt="Right Main logo"></a>
             </div>
             <svg id="centerSvg" class="decor fill" height="15" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 100 L100 0 L0 0" stroke-width="0" fill="white"></path>
@@ -83,10 +83,13 @@
                 <div class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
                   <ul class="nav navbar-nav">
                     <li >
+                      <a href="index.php">Home</a>
+                    </li>
+                    <li >
                       <a href="about.php?opt=la_agencia">La Agencia</a>
                     </li>
                     <li class="">
-                      <a href="car_fleet.php">Parque Automotor</a>
+                      <a href="car_fleet-slider.php">Parque Automotor</a>
                     </li>
                     <li class="">
                       <a href="about.php?opt=corporativo">Corporativos</a>

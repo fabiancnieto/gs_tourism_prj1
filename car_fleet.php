@@ -94,14 +94,14 @@ if (!empty($_GET["opt"])) {
     <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
       <div class="box">
         <a href="#" data-toggle="modal" data-target="#6">
-          <img src="pictures/car_fleet_5.jpg">
+          <img src="pictures/car_fleet_9.jpg">
         </a>
         <div class="modal fade" id="6" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
               <div class="modal-body">
-                <img src="pictures/car_fleet_5.jpg">
+                <img src="pictures/car_fleet_9.jpg">
               </div>
                 <div class="col-md-12 description">
                   <!-- <h4>This is the sixth one on my Gallery</h4> -->
@@ -114,14 +114,14 @@ if (!empty($_GET["opt"])) {
     <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
       <div class="box">
         <a href="#" data-toggle="modal" data-target="#7">
-          <img src="pictures/car_fleet_6.jpg">
+          <img src="pictures/car_fleet_1.jpg">
         </a>
         <div class="modal fade" id="7" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
               <div class="modal-body">
-                <img src="pictures/car_fleet_6.jpg">
+                <img src="pictures/car_fleet_1.jpg">
               </div>
                 <div class="col-md-12 description">
                   <!-- <h4>This is the seventh one on my Gallery</h4> -->
@@ -134,14 +134,14 @@ if (!empty($_GET["opt"])) {
     <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
       <div class="box">
         <a href="#" data-toggle="modal" data-target="#8">
-          <img src="pictures/car_fleet_7.jpg">
+          <img src="pictures/car_fleet_4.jpg">
         </a>
         <div class="modal fade" id="8" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
               <div class="modal-body">
-                <img src="pictures/car_fleet_7.jpg">
+                <img src="pictures/car_fleet_4.jpg">
               </div>
                 <div class="col-md-12 description">
                   <!-- <h4>This is the eighth one on my Gallery</h4> -->
@@ -194,14 +194,14 @@ if (!empty($_GET["opt"])) {
     <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
       <div class="box">
         <a href="#" data-toggle="modal" data-target="#11">
-          <img src="pictures/car_fleet_10.jpg">
+          <img src="pictures/car_fleet_7.jpg">
         </a>
         <div class="modal fade" id="11" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
               <div class="modal-body">
-                <img src="pictures/car_fleet_10.jpg">
+                <img src="pictures/car_fleet_7.jpg">
               </div>
                 <div class="col-md-12 description">
                   <!-- <h4>This is the leventh one on my Gallery</h4> -->
@@ -214,14 +214,14 @@ if (!empty($_GET["opt"])) {
     <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
       <div class="box">
         <a href="#" data-toggle="modal" data-target="#11">
-          <img src="pictures/car_fleet_1.jpg">
+          <img src="pictures/car_fleet_6.jpg">
         </a>
         <div class="modal fade" id="12" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
               <div class="modal-body">
-                <img src="pictures/car_fleet_1.jpg">
+                <img src="pictures/car_fleet_6.jpg">
               </div>
                 <div class="col-md-12 description">
                   <!-- <h4>This is the leventh one on my Gallery</h4> -->
@@ -234,14 +234,14 @@ if (!empty($_GET["opt"])) {
     <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
       <div class="box">
         <a href="#" data-toggle="modal" data-target="#11">
-          <img src="pictures/car_fleet_4.jpg">
+          <img src="pictures/car_fleet_5.jpg">
         </a>
         <div class="modal fade" id="13" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
               <div class="modal-body">
-                <img src="pictures/car_fleet_4.jpg">
+                <img src="pictures/car_fleet_5.jpg">
               </div>
                 <div class="col-md-12 description">
                   <!-- <h4>This is the leventh one on my Gallery</h4> -->
