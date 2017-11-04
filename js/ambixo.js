@@ -7,7 +7,7 @@
   
 -------------------------------------------------------------------------*/
 
-var plan='costa_atlantica', plans = null, currPlan = null, currList = null;
+var plan='costa_atlantica', plans = null, currPlan = null, currList = null, aboutContent = null;
 var option='la_agencia', options = null, currOption = null;
 
 $(".mainImg").click(function (){
@@ -93,57 +93,72 @@ $(document).ready(function () {
 
 function setPlanMainImg() {
   $("#photos #planMainTitle").html(currPlan.title);
-  $("#photos #planDescription").html(currPlan.description);
+  $("#photos #planDescription").html(currPlan.description + "<br><a href='" + "http://" + publicName + publicPath + "admin/files/" + currPlan.url2 + "' >Descargue Informaci&oacute;n Completa</a>");
   $("#photos #planMainImage").attr("src", "pictures/" + currPlan.image);
 }
 
 function setTextContent() {
-  currList = $("#route #routeDescription");
-  $.each(currPlan.travel_route, function(index, element) {
-    addListItem(element, index);
-  });
+	if(currPlan.travel_route) {
+		currList = $("#route #routeDescription");
+		$.each(currPlan.travel_route, function(index, element) {
+			addListItem(element, index);
+		});
+	}
+	
+	if(currPlan.included) {
+		currList = $("#included #includeDescription");
+		$.each(currPlan.included, function(index, element) {
+			addListItem(element, index);
+		});
+	}
+	
+	if(currPlan.optional) {
+		currList = $("#no_included #optionalDescription");
+		$.each(currPlan.optional, function(index, element) {
+			addListItem(element, index);
+		});
+	}  
 
-  currList = $("#included #includeDescription");
-  $.each(currPlan.included, function(index, element) {
-    addListItem(element, index);
-  });
+	if(currPlan.not_included) {
+		currList = $("#no_included #notIncludeDescription");
+		$.each(currPlan.not_included, function(index, element) {
+			addListItem(element, index);
+		});
+	}
+	
+	if(currPlan.date) {
+		currList = $("#date_price #dateDescription");
+		$.each(currPlan.date, function(index, element) {
+			addListItem(element, index);
+		});
+	}
 
-  currList = $("#no_included #optionalDescription");
-  $.each(currPlan.optional, function(index, element) {
-    addListItem(element, index);
-  });
-  
-  currList = $("#no_included #notIncludeDescription");
-  $.each(currPlan.not_included, function(index, element) {
-    addListItem(element, index);
-  });
-
-  currList = $("#date_price #dateDescription");
-  $.each(currPlan.date, function(index, element) {
-    addListItem(element, index);
-  });
-
-  currList = $("#date_price #priceDescription");
-  $.each(currPlan.prices, function(index, element) {
-    addListPriceItem(element, index);
-  });
+	if(currPlan.prices) {	
+		currList = $("#date_price #priceDescription");
+		$.each(currPlan.prices, function(index, element) {
+			addListPriceItem(element, index);
+		});
+	}
 }
 
 function addListPriceItem(element, index) {
   html = "<tr><td>" + element.title + "</td>";
   html = html + "<td>" + element.hotel + "</td>";
-  html = html + "<td class='price'>" + element.price[1] + "</td>";
-  html = html + "<td class='price'>" + element.price[2] + "</td>";
-  html = html + "<td class='price'>" + element.price[3] + "</td>";
-  html = html + "<td class='price'>" + element.price[4] + "</td></tr>";
+  if (element.price) {
+	  html = html + "<td class='price'>" + element.price[1] + "</td>";
+	  html = html + "<td class='price'>" + element.price[2] + "</td>";
+	  html = html + "<td class='price'>" + element.price[3] + "</td>";
+	  html = html + "<td class='price'>" + element.price[4] + "</td>";
+  }
+  html = html + "</tr>";
   currList.append(html);
 }
 
 function addListItem(element, index) {
   if(element.title) {
-    currList.append("<li><p><strong>" + element.title + ": </strong>" + element.description + "</p></li>");
+    currList.append("<strong>" + element.title + ": </strong>" + element.description);
   } else {
-    currList.append("<li><p>" + element + "</p></li>");
+    currList.append(element);
   }
 }
 
@@ -155,28 +170,40 @@ function setAboutContent() {
 }
 
 function setPlansContent (plan) {
-  completePath = "http://" + publicName + publicPath + "data/plans.json";
+	var urlRequest = "http://" + publicName + publicPath + "_drvGuiCont.php";
 
-  var jqxhr = $.getJSON( completePath, function(data) {
-    plans = data.plans;
-    currPlan = plans[plan];
-    setPlanMainImg();
-    setTextContent();
-  })
-  .fail(function() {
-    console.log( "error" );
-  });
+    $.ajax({
+        type: "POST",
+        dataType: "json",
+        url: urlRequest,
+        data: {
+            type: "plans",
+			section: plan
+        }
+    }).done(function(jsRet) {
+		data = jsRet;
+		plans = data.plans;
+		currPlan = plans[plan];
+		setPlanMainImg();
+		setTextContent();
+    });
 }
 
 function setOptionsContent (opt) {
-  completePath = "http://" + publicName + publicPath + "data/about.json";
+	var urlRequest = "http://" + publicName + publicPath + "_drvGuiCont.php";
 
-  var jqxhr = $.getJSON( completePath, function(data) {
-    options = data.about;
-    currOption = options[opt];
-    setAboutContent();
-  })
-  .fail(function() {
-    console.log( "error" );
-  });
+    $.ajax({
+        type: "POST",
+        dataType: "json",
+        url: urlRequest,
+        data: {
+            type: "about",
+			section: opt
+        }
+    }).done(function(jsRet) {
+		data = jsRet;
+		options = data.about;
+		currOption = options[opt];
+		setAboutContent();
+    });
 }

@@ -1,7 +1,7 @@
 <?php
   $publicName = $_SERVER["SERVER_NAME"];
   $siteName = "/gs_tourism_prj1/";
-  ///$siteName = "/proyectos/Turismauro/v1.33/";
+  ///$siteName = "/proyectos/Turismauro/v1.35/";
   echo "<script type='text/javascript' > publicName ='{$publicName}', publicPath = '{$siteName}'; </script>";
 ?>
 <!doctype html>

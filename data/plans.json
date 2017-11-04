@@ -474,123 +474,113 @@
     "eje_cafetero": {
       "image": "main-img-6.jpg",
       "title": "Eje Cafetero",
-      "description": "<strong>.:: Eje Cafetero 5 D&iacute;as 4 Noches ::.</strong><br><a href='data/files/eje_cafetero_5_dias.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
+      "description": "<strong>.:: Paisajes, sabor y aroma ::.</strong><br><a href='data/files/eje_cafetero_5_dias.pdf' target='_blank'>Descargue Informaci&oacute;n Completa 5 D&iacute;as</a> <a href='data/files/eje_cafetero_4_dias.pdf' target='_blank'>Descargue Informaci&oacute;n Completa 4 D&iacute;as</a>",
       "travel_route": {
+        "0": {
+          "title": " ",
+          "description": "<strong>Temporada Baja</strong>"
+        },
         "1": {
-          "title": "Primer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Dia Anterior",
+          "description": "Salida de Bogot&aacute; en horas de la noche 10:00 P.M. hacia el departamento del Quind&ntilde;o"
         },
         "2": {
-          "title": "Segundo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Primer Dia",
+          "description": "En horas de la ma&ntilde;ana llegada al lugar de alojamiento (Quind&ntilde;o), ubicaci&oacute;n en el hotel; Desayuno, visita al PARQUE CULTURAL LOS ARRIEROS o PANACA hasta las horas de la tarde, regreso al hotel disfrute de juegos zonas h&uacute;medas y diferentes actividades en el Hotel, Cena."
         },
         "3": {
-          "title": "Tercer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Segundo Dia",
+          "description": "Desayuno, En la ma&ntilde;ana City tour panor&aacute;mico por ARMENIA, visita al pueblo mas antiguo del Quindio (Salento) y los valles de C&oacute;cora, City tour panor&aacute;mico por PEREIRA, DOS QUEBRADAS y SANTA ROSA DE CABAL, ingreso a las termales de Santa Rosa, en las horas de la tarde regreso al hotel, Cena."
         },
         "4": {
-          "title": "Cuarto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Tercer Dia",
+          "description": "Desayuno, En la ma&ntilde;ana visita al Parque Nacional del Caf&eacute; disfrutando todo el d&iacute;a de las atracciones del parque, en la tarde regreso al hotel y disfrute de juegos zonas h&uacute;medas y diferentes actividades en el Hotel, Cena."
         },
         "5": {
-          "title": "Quinto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Cuarto Dia",
+          "description": "Descanso en el hotel y disfruta de juegos zonas h&uacute;medas y diferentes actividades en el Hotel, en la tarde regreso a la ciudad de Bogot&aacute;, fin de nuestros servicios."
         },
         "6": {
-          "title": "Sexto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": " ",
+          "description": "<strong>Temporada Alta</strong>"
         },
         "7": {
-          "title": "Septimo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Primer Dia",
+          "description": "Temporada Alta: Salida de Bogot&aacute; en horas de la ma&ntilde;ana hacia el departamento del Quind&iacute;o, llegada al lugar de alojamiento, ubicaci&oacute;n en el hotel. D&iacutea libre para disfrutar de juegos zonas h&uacute;medas y diferentes actividades en el Hotel, Cena."
+        },
+        "8": {
+          "title": "Segundo Dia",
+          "description": "Desayuno, visita al PARQUE CULTURAL LOS ARRIEROS o PANACA hasta las horas de la tarde, regreso al hotel disfrute de juegos zonas h&uacute;medas y diferentes actividades en el Hotel, Cena."
+        },
+        "9": {
+          "title": "Tercer Dia",
+          "description": "Desayuno, City tour panor&aacute;mico por ARMENIA, visita al pueblo mas antiguo del Quindio (Salento) y los valles de C&oacute;cora, City tour panor&aacute;mico por PEREIRA, DOS QUEBRADAS y SANTA ROSA DE CABAL, ingreso a las termales de Santa Rosa, en las horas de la tarde regreso al hotel, Cena."
+        },
+        "10": {
+          "title": "Cuarto Dia",
+          "description": "Desayuno, Visita al Parque Nacional del Caf&eacute; disfrutando todo el d&iacute;a de las atracciones del parque, en la tarde tour panor&aacute;mico en Chiva rumbera visitando los sitios mas representativos de Armenia (Grupos m&iacute;nimo de 20 personas)."
+        },
+        "11": {
+          "title": "Quinto Dia",
+          "description": "Descanso en el hotel y disfruta de juegos zonas h&uacute;medas y diferentes actividades en el Hotel, en la tarde regreso a la ciudad de Bogot&aacute;, fin de nuestros servicios."
         }
       },
       "included": {
-        "1": "Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Tansporte en buses, busetas o vans de turismo full equipo, seg&uacute;n el n&uacute;mero de pasajeros.",
+        "2": "Tour en cada ciudad con su respectivo itinerario.",
+        "3": "Temporada Baja: Alimentaci&oacute;n 04 Desayunos y 03 Cenas. | Temporada Alta: Alimentaci&oacute;n 04 Desayunos y 04 Cenas.",
+        "4": "Acomodaci&oacute;n M&uacute;ltiple en c&oacute;modas habitaciones con ba&ntilde;o privado y TV.",
+        "5": "Pasaporte Full al Paruq Nacional los Arrieros o PANACA.",
+        "6": "Pasaporte al Parque Nacional del Cafe (7 aventuras).",
+        "7": "Visita al municipio de Salento y Miradores del Valle de C&oacute;cora.",
+        "8": "Pasaporte termales de Santa Rosa de Cabal.",
+        "9": "Solo temporada Alta: Tour panor&aacute;mico en Chiva por Armenia.",
+        "10": "Asistencia M&eacute;dica durante el viaje y Coordinador de viaje.",
+        "11": "Impuestos."
       },
       "not_included": {
-        "1": "No Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "No Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "No Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "No Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "No Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "No Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Gastos no estipulados en el programa ni comidas por carretera."
       },
-      "optional": {
-        "1": "Opcional 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Opcional 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Opcional 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Opcional 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Opcional 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo"
-      },
+      "optional": {},
       "date": {
         "1": {
-          "title": "Promoción Temporada Baja",
-          "description": "Descripción de las fechas para la temporada baja con horarios de salida. SAlida todo los Lunes del año y otras cosas."
-        },
-        "2": {
-          "title": "Semana Santa",
-          "description": "Descripción de las fechas para la semana santa con horarios de salida. SAlida el viernes antes de semana santa y otras cosas."
+          "title": "Promoción Temporada Media / Semana Santa",
+          "description": "<p><span >Abril&nbsp;Salidas: Desde el&nbsp;12 al 16</span></p>"
         },
         "3": {
           "title": "Temporada Alta",
-          "description": "Descripción de las fechas para la temporada alta con horarios de salida. Salida cierto dias de tomporada añta y otras cosas."
+          "description": "<p>Diciembre&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;22 al 26 y Desde el&nbsp;29 al 02 de Enero</span></p><p>Enero&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;02 al 06</span></p>"
         }
       },
       "prices": {
         "1": {
           "title": "T. Baja",
-          "hotel": "Plan Basico",
+          "hotel": "Hotel Campestre Portal del Sol o Similar",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 575.000",
+            "2": "$ 610.000",
+            "3": "No Aplica",
+            "4": "$ 545.000"
           }
         },
         "2": {
-          "title": "T. Baja",
-          "hotel": "Plan Basico +",
+          "title": "T. Media Semana Santa",
+          "hotel": "Hotel Campestre Portal del Sol o Similar",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 699.000",
+            "2": "$ 805.000",
+            "3": "No Aplica",
+            "4": "$ 679.000"
           }
         },
         "3": {
-          "title": "T. Baja",
-          "hotel": "Hotel TCG Cartagena",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "4": {
-          "title": "S. Santa",
-          "hotel": "Hotel Semana Santa",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "5": {
           "title": "T. Alta",
-          "hotel": "Hotel Alta",
+          "hotel": "Hotel Campestre Portal del Sol o Similar",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 859.000",
+            "2": "$ 979.000",
+            "3": "No Aplica",
+            "4": "$ 839.000"
           }
         }
       }
@@ -598,123 +588,88 @@
     "san_gil": {
       "image": "main-img-7.jpg",
       "title": "San Gil",
-      "description": "<strong>.:: San Gil 4 D&iacute;as 3 Noches ::.</strong><br><a href='data/files/san_gil_puentes.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
+      "description": "<strong>.:: San Gil y Puentes 4 D&iacute;as 3 Noches ::.</strong><br><a href='data/files/san_gil_puentes.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
       "travel_route": {
         "1": {
-          "title": "Primer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Dia Anterior",
+          "description": "Salida de Bogot&aacute; 10:00 P.M. tomando la ruta Ubat&eacute;, Chiquinquir&aacute;, Barbosa, San Gil."
         },
         "2": {
-          "title": "Segundo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Primer Dia",
+          "description": "Ubicaci&oacute;n en el hotel, Desayuno, visita al Municipio de Barichara (monumento nacional) ingreso al museo guane. en la tarde caminata por las cascadaas del Juan Cur&iacute; cena."
         },
         "3": {
-          "title": "Tercer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Segundo Dia",
+          "description": "Desayuno, Espectacular recorrido Rafting por el r&iacute; Fonce con gu&iacute;a profesional (Casco, Chaleco y Remo) visita y caminata ecol&oacute;gica al Parque Natural el Gall&iacute;neral, Cena."
         },
         "4": {
-          "title": "Cuarto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Tercer Dia",
+          "description": "Desayuno, en la ma&ntilde;ana desplazamiento al Parque Nacionanl Chicamocha (PANACHI) paseo en telef&eacute;rico hasta la mesa de los santos y Parque Acu&aacute;tico, regreso al hotel a disfrutar de las diferentes actividades, Cena."
         },
         "5": {
-          "title": "Quinto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
-        },
-        "6": {
-          "title": "Sexto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
-        },
-        "7": {
-          "title": "Septimo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Cuarto Dia",
+          "description": "Desayuno, ma&ntilde;ana de descanso para disfrutar de las instalaciones del hotel y en las horas de la tarde, retorno a la ciudad de Bogot&aacute;, fin de nuestros servicios"
         }
       },
       "included": {
-        "1": "Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Tansporte en buses, busetas o vans de turismo full equipo, seg&uacute;n el n&uacute;mero de pasajeros.",
+        "3": "Alimentaci&oacute;n 04 Desayunos y 03 Cenas.",
+        "4": "Alojamiento 03 noches (Sn Gil) Hotel Campestre, Caba&ntilde;as y Piscina.",
+        "5": "Visita a Barichara y visita a Guane (Museo). Recorrido por San Gil.",
+        "6": "Recorrido en Balsa por el R&iacuteo Fonce con Gu&iacute;a profesional (Casco, Chaleco y Remo).",
+        "7": "Visita a las espectaculares cascadas de Juan Cur&iacute; Caminata Ecol&oacute;gica.",
+        "8": "Visita al Parque Natural Gallineral (San Gil), visita al Parque Nacional del Chicamocha con telef&eacute;rico y Parque Acu&aacute;tico.",
+        "9": "Visita al santuario de Nuestra Se&nacute;ora de las Lajas",
+        "10": "Seguro de vida, Tarjeta de Asistencia M&eacute;dica durante el viaje y Coordinador de viaje.",
+        "11": "Impuestos y seguro hotelero."
       },
       "not_included": {
-        "1": "No Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "No Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "No Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "No Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "No Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "No Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Gastos no estipulados en el programa ni comidas por carretera."
       },
-      "optional": {
-        "1": "Opcional 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Opcional 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Opcional 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Opcional 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Opcional 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo"
-      },
+      "optional": {},
       "date": {
         "1": {
           "title": "Promoción Temporada Baja",
-          "description": "Descripción de las fechas para la temporada baja con horarios de salida. SAlida todo los Lunes del año y otras cosas."
+          "description": "<p><span>Todos los miercoles del A&ntilde;o excepto fechas de temporada Alta y Puentes</span></p><p><span >Abril&nbsp;Salidas: Desde el&nbsp;07 al 11.</span></p>"
         },
         "2": {
           "title": "Semana Santa",
-          "description": "Descripción de las fechas para la semana santa con horarios de salida. SAlida el viernes antes de semana santa y otras cosas."
+          "description": "<p>Abril&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;12 al 16 de&nbsp;Abril</span></p>"
         },
         "3": {
           "title": "Temporada Alta",
-          "description": "Descripción de las fechas para la temporada alta con horarios de salida. Salida cierto dias de tomporada añta y otras cosas."
+          "description": "<p>Semana Receso Octubre&nbsp;Salidas:&nbsp;<span >Desde el&nbsp;12 al 16 de&nbsp;Octubre</span></p><p><span>Diciembre Salidas 29 al 02 de Enero</span></p><p><span>Enero Salidas 04 al 08 de Enero</span></p>"
         }
       },
       "prices": {
         "1": {
           "title": "T. Baja",
-          "hotel": "Plan Basico",
+          "hotel": "Hoteles Campestres con Piscina",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 559.000",
+            "2": "$ 599.000",
+            "3": "No Aplica",
+            "4": "$ 515.000"
           }
         },
         "2": {
-          "title": "T. Baja",
-          "hotel": "Plan Basico +",
+          "title": "Semana Santa",
+          "hotel": "Hoteles Campestres con Piscina",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 670.000",
+            "2": "$ 730.000",
+            "3": "No Aplica",
+            "4": "$ 645.000"
           }
         },
         "3": {
-          "title": "T. Baja",
-          "hotel": "Hotel TCG Cartagena",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "4": {
-          "title": "S. Santa",
-          "hotel": "Hotel Semana Santa",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "5": {
           "title": "T. Alta",
-          "hotel": "Hotel Alta",
+          "hotel": "Hoteles Campestres con Piscina",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 670.000",
+            "2": "$ 730.000",
+            "3": "No Aplica",
+            "4": "$ 645.000"
           }
         }
       }
@@ -725,120 +680,63 @@
       "description": "<strong>.:: NUEVO Hacienda Napoles y Rio Claro 3 D&iacute;as 2 Noches ::.</strong><br><a href='data/files/hacienda_napoles.pdf' target='_blank'>Descargue Informaci&oacute;n Completa</a>",
       "travel_route": {
         "1": {
-          "title": "Primer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Dia Anterior",
+          "description": "Salida de Bogot&aacute; 11:00 P.M. tomando la ruta Siberia, Villeta, Guaduas, Rio negrito y Doradal."
         },
         "2": {
-          "title": "Segundo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Primer Dia",
+          "description": "Ubicaci&oacute;n en el hotel, Desayuno, visita al Ca&ntilde;on de Rio Claro (Ingreso, Caminata Ecol&oacute;gica y Ba&ntilde;o en el rio) para disfrutar de una reserva natural de un bosque h&uacute;medo tropical con aguas cristalinas &uacute;nico en el mundo por su belleza, disfrutando del rafting recorrido sueva de 6 Km con duraci&oacute;n de 3 horas apto para todas las edades. En la tarde regreso al hotel y cena."
         },
         "3": {
-          "title": "Tercer Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
-        },
-        "4": {
-          "title": "Cuarto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
-        },
-        "5": {
-          "title": "Quinto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
-        },
-        "6": {
-          "title": "Sexto Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
-        },
-        "7": {
-          "title": "Septimo Dia",
-          "description": "Salida de Bogota 11AM. tomando la troncal del caribe.."
+          "title": "Segundo Dia",
+          "description": "Desayuno, ma&ntilde;ana de descanso para disfrutar de las intalaciones del hotel. Visita a Doradal barrio la Aldea (El pueblito estilo Mediterr&aacute;neo de peque&ntilde;as casas blancas en la monta&ntilde;a, cerca de Puerto Triunfo), regreso a la ciudad de Bogot&aacute; fin de nuestros servicios."
         }
       },
       "included": {
-        "1": "Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Tansporte en buses, busetas o vans de turismo full equipo, seg&uacute;n el n&uacute;mero de pasajeros.",
+        "3": "Alimentaci&oacute;n 03 Desayunos y 02 Cenas.",
+        "4": "Alojamiento 02 noches (Doradal) en Hotel Campestre, Caba&ntilde;as y Piscina.",
+        "5": "Visita al Ca&ntilde;on del Rio Claro (Ingreso, Caminata Ecol&oacute;gica, Ba&ntilde;o en el Rio y Rafting incluye casco - chaleco - remo).",
+        "6": "Visia al parque tem&aacute;tico Hacienda Napoles (Pasaporte Safari).",
+        "7": "Visita a Doradal barrio la Aldea (Pueblito estilo Mediterr&aacute;neo).",
+        "10": "Seguro de vida, Tarjeta de Asistencia M&eacute;dica durante el viaje y Coordinador de viaje.",
+        "11": "Impuestos y seguro hotelero."
       },
       "not_included": {
-        "1": "No Incluido 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "No Incluido 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "No Incluido 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "No Incluido 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "No Incluido 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo",
-        "8": "No Incluido 6 Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Gastos no estipulados en el programa ni comidas por carretera."
       },
       "optional": {
-        "1": "Opcional 1 Transporte en buses, busetas o vans de turismo full equipo",
-        "2": "Opcional 2 Transporte en buses, busetas o vans de turismo full equipo",
-        "3": "Opcional 3 Transporte en buses, busetas o vans de turismo full equipo",
-        "4": "Opcional 4 Transporte en buses, busetas o vans de turismo full equipo",
-        "5": "Opcional 5 Transporte en buses, busetas o vans de turismo full equipo, Transporte en buses, busetas o vans de turismo full equipo"
+        "1": "Tarjeta de asistencia m&eacutedica e ingreso a las zonas acu&aacute;ticas Hacienda N&aacute;poles $65.000"
       },
       "date": {
         "1": {
           "title": "Promoción Temporada Baja",
-          "description": "Descripción de las fechas para la temporada baja con horarios de salida. SAlida todo los Lunes del año y otras cosas."
-        },
-        "2": {
-          "title": "Semana Santa",
-          "description": "Descripción de las fechas para la semana santa con horarios de salida. SAlida el viernes antes de semana santa y otras cosas."
+          "description": "<p><span>Todos los puentes del A&ntilde;o </span></p>"
         },
         "3": {
           "title": "Temporada Alta",
-          "description": "Descripción de las fechas para la temporada alta con horarios de salida. Salida cierto dias de tomporada añta y otras cosas."
+          "description": "Pendientes programacion"
         }
       },
       "prices": {
         "1": {
           "title": "T. Baja",
-          "hotel": "Plan Basico",
+          "hotel": "Hoteles Campestres con Piscina",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "2": {
-          "title": "T. Baja",
-          "hotel": "Plan Basico +",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 539.000",
+            "2": "$ 589.000",
+            "3": "No Aplica",
+            "4": "$ 485.000"
           }
         },
         "3": {
-          "title": "T. Baja",
-          "hotel": "Hotel TCG Cartagena",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "4": {
-          "title": "S. Santa",
-          "hotel": "Hotel Semana Santa",
-          "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
-          }
-        },
-        "5": {
           "title": "T. Alta",
-          "hotel": "Hotel Alta",
+          "hotel": "Hoteles Campestres con Piscina",
           "price": {
-            "1": "1250000",
-            "2": "130000",
-            "3": "140000",
-            "4": "150000"
+            "1": "$ 579.000",
+            "2": "$ 629.000",
+            "3": "No Aplica",
+            "4": "$ 525.000"
           }
         }
       }
